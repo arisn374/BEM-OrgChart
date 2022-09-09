@@ -1,0 +1,2929 @@
+﻿[{
+        "NodeCode": 50001,
+        "NodeParent": null,
+        "NodeName": "คณะกรรมการบริษัท",
+        "NodeNameEn": "Board of Directors",
+        "DeptCode": "01-01",
+        "Total": 2
+    },
+    {
+        "NodeCode": 100001,
+        "NodeParent": 50001,
+        "NodeName": "คณะกรรมการบริหาร",
+        "NodeNameEn": null,
+        "DeptCode": "01-01-02",
+        "Total": 0
+    },
+    {
+        "NodeCode": 100002,
+        "NodeParent": 50001,
+        "NodeName": "คณะกรรมการตรวจสอบ",
+        "NodeNameEn": null,
+        "DeptCode": "01-01-01",
+        "Total": 0
+    },
+    {
+        "NodeCode": 100003,
+        "NodeParent": 50001,
+        "NodeName": "คณะกรรมการสรรหาและกำหนดค่าตอบแทน",
+        "NodeNameEn": null,
+        "DeptCode": "01-01-03",
+        "Total": 0
+    },
+    {
+        "NodeCode": 100004,
+        "NodeParent": 50001,
+        "NodeName": "คณะกรรมการบริษัทภิบาลและบริหารความเสี่ยง",
+        "NodeNameEn": null,
+        "DeptCode": "01-01-04",
+        "Total": 0
+    },
+    {
+        "NodeCode": 200001,
+        "NodeParent": 100001,
+        "NodeName": "กรรมการผู้จัดการ",
+        "NodeNameEn": "Managing Director",
+        "DeptCode": "01-01-02-01",
+        "Total": 3
+    },
+    {
+        "NodeCode": 300001,
+        "NodeParent": 200001,
+        "NodeName": "ปฏิบัติการและวิศวกรรมระบบราง",
+        "NodeNameEn": "Operation and Engnineering (Rail)",
+        "DeptCode": "01-01-02-01-01",
+        "Total": 2
+    },
+    {
+        "NodeCode": 300002,
+        "NodeParent": 200001,
+        "NodeName": "พัฒนาธุรกิจและปฏิบัติการทางพิเศษ",
+        "NodeNameEn": "Business Development and Expressway Operations",
+        "DeptCode": "01-01-02-01-02",
+        "Total": 2
+    },
+    {
+        "NodeCode": 300004,
+        "NodeParent": 200001,
+        "NodeName": "บัญชีและการเงิน ",
+        "NodeNameEn": "Accounting and Finance",
+        "DeptCode": "01-01-02-01-04",
+        "Total": 1
+    },
+    {
+        "NodeCode": 300005,
+        "NodeParent": 200001,
+        "NodeName": "บริหาร",
+        "NodeNameEn": "Administration",
+        "DeptCode": "01-01-02-01-03",
+        "Total": 8
+    },
+    {
+        "NodeCode": 400001,
+        "NodeParent": 300001,
+        "NodeName": "งานปฏิบัติการเดินรถ",
+        "NodeNameEn": "Train Operations Group",
+        "DeptCode": "01-01-02-01-01-02",
+        "Total": 4
+    },
+    {
+        "NodeCode": 400002,
+        "NodeParent": 300001,
+        "NodeName": "งานวิศวกรรมและซ่อมบำรุง",
+        "NodeNameEn": "Engineering & Maintenance Group (Rail)",
+        "DeptCode": "01-01-02-01-01-01",
+        "Total": 2
+    },
+    {
+        "NodeCode": 400003,
+        "NodeParent": 300002,
+        "NodeName": "งานพัฒนาและบริหารโครงการระบบราง",
+        "NodeNameEn": "Project Management & Development Group (Rail)",
+        "DeptCode": "01-01-02-01-02-03",
+        "Total": 27
+    },
+    {
+        "NodeCode": 400004,
+        "NodeParent": 300002,
+        "NodeNam e": "งานวิเคราะห์โครงการ",
+        "NodeNameEn": "Project Analysis Group",
+        "DeptCode": "01-01-02-01-02-05",
+        "Total": 2
+    },
+    {
+        "NodeCode": 400005,
+        "NodeParent": 300005,
+        "NodeName": "งานธุรการและจัดซื้อ",
+        "NodeNameEn": "Administration & Procurement Group",
+        "DeptCode": "01-01-02-01-03-02",
+        "Total": 2
+    },
+    {
+        "NodeCode": 400006,
+        "NodeParent": 300004,
+        "NodeName": "งานการเงินและนักลงทุนสัมพันธ์",
+        "NodeNameEn": "Finance & Investor Relations Group",
+        "DeptCode": "01-01-02-01-04-01",
+        "Total": 1
+    },
+    {
+        "NodeCode": 400007,
+        "NodeParent": 300004,
+        "NodeName": "งานบัญชีและตรวจสอบรายได้",
+        "NodeNameEn": "Accounting & Revenue Audit Group",
+        "DeptCode": "01-01-02-01-04-02",
+        "Total": 0
+    },
+    {
+        "NodeCode": 400015,
+        "NodeParent": 200001,
+        "NodeName": "งานความปลอดภัยและคุณภาพ",
+        "NodeNameEn": "Safety & Quality Group",
+        "DeptCode": "01-01-02-01-00-03",
+        "Total": 1
+    },
+    {
+        "NodeCode": 400016,
+        "NodeParent": 300005,
+        "NodeName": "งานทรัพยากรมนุษย์และองค์กร",
+        "NodeNameEn": "Human Resources & Organization Development Group",
+        "DeptCode": "01-01-02-01-03-01",
+        "Total": 2
+    },
+    {
+        "NodeCode": 400018,
+        "NodeParent": 300001,
+        "NodeName": "งานกลยุทธ์และข้อมูลปฏิบัติการ",
+        "NodeNameEn": "Strategy Operations Performance Group",
+        "DeptCode": "01-01-02-01-01-03",
+        "Total": 1
+    },
+    {
+        "NodeCode": 400021,
+        "NodeParent": 300005,
+        "NodeName": "งานเทคโนโลยีและสารสนเทศ",
+        "NodeNameEn": "Information & Technology Group",
+        "DeptCode": "01-01-02-01-03-03",
+        "Total": 0
+    },
+    {
+        "NodeCode": 400022,
+        "NodeParent": 200001,
+        "NodeName": "งานพัฒนาเชิงพาณิชย์และสื่อสารองค์กร",
+        "NodeNameEn": "Commercial Development & Organization Communications Group",
+        "DeptCode": "01-01-02-01-00-02",
+        "Total": 1
+    },
+    {
+        "NodeCode": 400023,
+        "NodeParent": 300002,
+        "NodeName": "งานปฏิบัติการทางพิเศษ",
+        "NodeNameEn": "Expressway Operations Group",
+        "DeptCode": "01-01-02-01-02-01",
+        "Total": 1
+    },
+    {
+        "NodeCode": 400024,
+        "NodeParent": 300002,
+        "NodeName": "งานวิศวกรรมทางพิเศษ",
+        "NodeNameEn": "Expressway Engineering Group",
+        "DeptCode": "01-01-02-01-02-02",
+        "Total": 1
+    },
+    {
+        "NodeCode": 400025,
+        "NodeParent": 300002,
+        "NodeName": "งานพัฒนาและบริหารโครงการทางพิเศษ",
+        "NodeNameEn": "Project Management & Development Group (Expressway)",
+        "DeptCode": "01-01-02-01-02-04",
+        "Total": 1
+    },
+    {
+        "NodeCode": 400027,
+        "NodeParent": 200001,
+        "NodeName": "สำนักกรรมการและงานกำกับดูแล",
+        "NodeNameEn": "Directors Office & Compliance Group",
+        "DeptCode": "01-01-02-01-00-01",
+        "Total": 1
+    },
+    {
+        "NodeCode": 500001,
+        "NodeParent": 300005,
+        "NodeName": "สำนักตรวจสอบภายใน",
+        "NodeNameEn": "Internal Audit Office",
+        "DeptCode": "01-01-01-00-00-00-01",
+        "Total": 3
+    },
+    {
+        "NodeCode": 500004,
+        "NodeParent": 400002,
+        "NodeName": "ฝ่ายวิศวกรรมและซ่อมบำรุง",
+        "NodeNameEn": "Engineering & Maintenance Department",
+        "DeptCode": "01-01-02-01-01-01-01",
+        "Total": 2
+    },
+    {
+        "NodeCode": 500005,
+        "NodeParent": 400002,
+        "NodeName": "ฝ่ายกลยุทธ์และวางแผนบริหารทรัพย์สิน",
+        "NodeNameEn": "Asset Management Strategy & Planning Department",
+        "DeptCode": "01-01-02-01-01-01-02",
+        "Total": 0
+    },
+    {
+        "NodeCode": 500006,
+        "NodeParent": 400003,
+        "NodeName": "ฝ่ายบริหารโครงการ (ระบบราง)",
+        "NodeNameEn": "Project Management Department (Rail)",
+        "DeptCode": "01-01-02-01-02-03-01",
+        "Total": 0
+    },
+    {
+        "NodeCode": 500007,
+        "NodeParent": 400007,
+        "NodeName": "ฝ่ายบัญชีทั่วไป",
+        "NodeNameEn": "Accounting Department",
+        "DeptCode": "01-01-02-01-04-02-01",
+        "Total": 1
+    },
+    {
+        "NodeCode": 500008,
+        "NodeParent": 400005,
+        "NodeName": "ฝ่ายบริหารทั่วไป",
+        "NodeNameEn": "General Administration Department",
+        "DeptCode": "01-01-02-01-03-02-02",
+        "Total": 1
+    },
+    {
+        "NodeCode": 500009,
+        "NodeParent": 400016,
+        "NodeName": "ฝ่ายบริหารทรัพยากรบุคคล",
+        "NodeNameEn": "Human Resources Department",
+        "DeptCode": "01-01-02-01-03-01-01",
+        "Total": 1
+    },
+    {
+        "NodeCode": 500010,
+        "NodeParent": 400027,
+        "NodeName": "สำนักกรรมการและงานกำกับดูแล",
+        "NodeNameEn": "Managing Director Office & Compliance Group",
+        "DeptCode": "01-01-02-01-00-01",
+        "Total": 1
+    },
+    {
+        "NodeCode": 500011,
+        "NodeParent": 400015,
+        "NodeName": "ฝ่ายบริหารความปลอดภัย",
+        "NodeNameEn": "Safety Management Department",
+        "DeptCode": "01-01-02-01-00-03-01",
+        "Total": 2
+    },
+    {
+        "NodeCode": 500012,
+        "NodeParent": 400018,
+        "NodeName": "ฝ่ายข้อมูลและผลปฏิบัติการ",
+        "NodeNameEn": "Operations Performance Department",
+        "DeptCode": "01-01-02-01-01-03-02",
+        "Total": 0
+    },
+    {
+        "NodeCode": 500013,
+        "NodeParent": 400018,
+        "NodeName": "ฝ่ายสนับสนุนการเดินรถ",
+        "NodeNameEn": "Train Operation s Support Department",
+        "DeptCode": "01-01-02-01-01-03-01",
+        "Total": 2
+    },
+    {
+        "NodeCode": 500014,
+        "NodeParent": 400003,
+        "NodeName": "ฝ่ายวิศวกรรมโครงการ (ระบบราง)",
+        "NodeNameEn": "Project Engineering Department (Rail)",
+        "DeptCode": "01-01-02-01-02-03-02",
+        "Total": 10
+    },
+    {
+        "NodeCode": 500015,
+        "NodeParent": 400021,
+        "NodeName": "ฝ่ายเทคโนโลยีสารสนเทศ",
+        "NodeNameEn": "Information Technology Department",
+        "DeptCode": "01-01-02-01-03-03-01",
+        "Total": 2
+    },
+    {
+        "NodeCode": 500016,
+        "NodeParent": 400005,
+        "NodeName": "ฝ่ายบริหารงานธุรการ",
+        "NodeNameEn": "Administration Department",
+        "DeptCode": "01-01-02-01-03-02-01",
+        "Total": 2
+    },
+    {
+        "NodeCode": 500017,
+        "NodeParent": 400004,
+        "NodeName": "ฝ่ายพัฒนาธุรกิจ",
+        "NodeNameEn": "Business Development Department",
+        "DeptCode": "01-01-02-01-02-05-01",
+        "Total": 0
+    },
+    {
+        "NodeCode": 500018,
+        "NodeParent": 400005,
+        "NodeName": "ฝ่ายประชาสัมพันธ์และพัฒนาเชิงพาณิชย์",
+        "NodeNameEn": "Public Relations & Commercial Development Department",
+        "DeptCode": "01-01-02-01-00-02-01",
+        "Total": 0
+    },
+    {
+        "NodeCode": 500019,
+        "NodeParent": 400006,
+        "NodeName": "ฝ่ายนักลงทุนสัมพันธ์",
+        "NodeNameEn": "Investor Relation Department",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 500020,
+        "NodeParent": 400006,
+        "NodeName": "ฝ่ายปฏิบัติการการเงิน",
+        "NodeNameEn": "Finance Operations Department",
+        "DeptCode": "01-01-02-01-04-01-01",
+        "Total": 1
+    },
+    {
+        "NodeCode": 500021,
+        "NodeParent": 400007,
+        "NodeName": "ฝ่ายตรวจสอบรายได้",
+        "NodeNameEn": "Revenue Audit Department",
+        "DeptCode": "01-01-02-01-04-02-02",
+        "Total": 2
+    },
+    {
+        "NodeCode": 500022,
+        "NodeParent": 400023,
+        "NodeName": "ฝ่ายการจราจร",
+        "NodeNameEn": "Traffic Department",
+        "DeptCode": "01-01-02-01-02-01-01",
+        "Total": 1
+    },
+    {
+        "NodeCode": 500023,
+        "NodeParent": 400023,
+        "NodeName": "ฝ่ายจัดเก็บค่าผ่านทาง",
+        "NodeNameEn": "Toll Collection Department",
+        "DeptCode": "01-01-02-01-02-01-02",
+        "Total": 1
+    },
+    {
+        "NodeCode": 500024,
+        "NodeParent": 400023,
+        "NodeName": "ฝ่ายรายได้ค่าผ่านทาง",
+        "NodeNameEn": "Toll Revenue Department",
+        "DeptCode": "01-01-02-01-02-01-03",
+        "Total": 1
+    },
+    {
+        "NodeCode": 500025,
+        "NodeParent": 400024,
+        "NodeName": "ฝ่ายบำรุงรักษาโยธา",
+        "NodeNameEn": "Civil Maintenance Department",
+        "DeptCode": "01-01-02-01-02-02-03",
+        "Total": 1
+    },
+    {
+        "NodeCode": 500026,
+        "NodeParent": 400024,
+        "NodeName": "ฝ่ายวิศวกรรมระบบ",
+        "NodeNameEn": "System Engineering Department",
+        "DeptCode": "01-01-02-01-02-02-01",
+        "Total": 1
+    },
+    {
+        "NodeCode": 500027,
+        "NodeParent": 400024,
+        "NodeName": "ฝ่ายวิศวกรรมไฟฟ้าและเครื่องกล",
+        "NodeNameEn": "Electrical and Mechanical Engineering Department",
+        "DeptCode": "01-01-02-01-02-02-02",
+        "Total": 1
+    },
+    {
+        "NodeCode": 500028,
+        "NodeParent": 400024,
+        "NodeName": "ฝ่ายวิศวกรรมโครงการ (ทางพิเศษ)",
+        "NodeNameEn": "Project Engineering Department (Expressway)",
+        "DeptCode": "01-01-02-01-02-02-05",
+        "Total": 1
+    },
+    {
+        "NodeCode": 500029,
+        "NodeParent": 400021,
+        "NodeName": "ฝ่ายพัฒนาระบบงาน",
+        "NodeNameEn": "System Development Department",
+        "DeptCode": "01-01-02-01-03-03-02",
+        "Total": 1
+    },
+    {
+        "NodeCode": 500032,
+        "NodeParent": 400001,
+        "NodeName": "ฝ่ายปฏิบัติการสถานี",
+        "NodeNameEn": "Station Operations Department",
+        "DeptCode": "01-01-02-01-01-02-02",
+        "Total": 1
+    },
+    {
+        "NodeCode": 500033,
+        "NodeParent": 400001,
+        "NodeName": "ฝ่ายควบคุมการเดินรถ",
+        "NodeNameEn": "Train Operations Control Department",
+        "DeptCode": "01-01-02-01-01-02-01",
+        "Total": 0
+    },
+    {
+        "NodeCode": 500034,
+        "NodeParent": 400003,
+        "NodeName": "ฝ่ายธุรกิจบัตรโดยสาร",
+        "NodeNameEn": "Ticket Business Department",
+        "DeptCode": "01-01-02-01-02-03-03",
+        "Total": 1
+    },
+    {
+        "NodeCode": 500036,
+        "NodeParent": 400015,
+        "NodeName": "ฝ่ายบริหารคุณภาพ",
+        "NodeNameEn": "Quality Management Department",
+        "DeptCode": "01-01-02-01-00-03-02",
+        "Total": 0
+    },
+    {
+        "NodeCode": 500038,
+        "NodeParent": 400025,
+        "NodeName": "ฝ่ายบริหารโครงการ (ทางพิเศษ)",
+        "NodeNameEn": "Project Management Department (Expressway)",
+        "DeptCode": "01-01-02-01-02-03-01",
+        "Total": 0
+    },
+    {
+        "NodeCode": 500039,
+        "NodeParent": 400027,
+        "NodeName": "ฝ่ายกฎหมายและกำกับการปฏิบัติงาน",
+        "NodeNameEn": "Legal & Compliance Department",
+        "DeptCode": "01-01-02-01-00-01-03",
+        "Total": 3
+    },
+    {
+        "NodeCode": 500040,
+        "NodeParent": 400027,
+        "NodeName": "ฝ่ายกำกับดูแลกิจการ",
+        "NodeNameEn": "Corporate Compliance Department",
+        "DeptCode": "01-01-02-01-00-01-01",
+        "Total": 1
+    },
+    {
+        "NodeCode": 500041,
+        "NodeParent": 400027,
+        "NodeName": "ฝ่ายสัญญาสัมปทานและงานภาครัฐ",
+        "No deNameEn": "Concession & Government Department",
+        "DeptCode": "01-01-02-01-00-01-02",
+        "Total": 1
+    },
+    {
+        "NodeCode": 500042,
+        "NodeParent": 400025,
+        "NodeName": "ฝ่ายโครงการ (ทางพิเศษ)",
+        "NodeNameEn": "Project Management Department (Expressway)",
+        "DeptCode": "01-01-02-01-02-04-01",
+        "Total": 1
+    },
+    {
+        "NodeCode": 600001,
+        "NodeParent": 500011,
+        "NodeName": "ส่วนประกันความปลอดภัย",
+        "NodeNameEn": "System Assurance Division",
+        "DeptCode": "01-01-02-01-00-03-01-02",
+        "Total": 5
+    },
+    {
+        "NodeCode": 600002,
+        "NodeParent": 500036,
+        "NodeName": "ส่วนบริหารคุณภาพ",
+        "NodeNameEn": "Quality Management Division",
+        "DeptCode": "01-01-02-01-00-03-02-02",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600003,
+        "NodeParent": 500012,
+        "NodeName": "ส่วนกลยุทธ์และข้อมูลผลปฏิบัติการ",
+        "NodeNameEn": "Strategy & Operations Performance Division",
+        "DeptCode": "01-01-02-01-01-03-02-01",
+        "Total": 2
+    },
+    {
+        "NodeCode": 600004,
+        "NodeParent": 500012,
+        "NodeName": "ส่วนบริหารผลปฏิบัติการสัญญาสัมปทาน",
+        "NodeNameEn": "Concessionaire Performance Division",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600005,
+        "NodeParent": 500005,
+        "NodeName": "ส่วนวางแผนงานวิศวกรรมและซ่อมบำรุง",
+        "NodeNameEn": "Engineering & Maintenance Planning Division",
+        "DeptCode": "01-01-02-01-01-01-02-01",
+        "Total": 5
+    },
+    {
+        "NodeCode": 600006,
+        "NodeParent": 500005,
+        "NodeName": "ส่วนกลยุทธ์และแผนบริหารทรัพย์สิน",
+        "NodeNameEn": "Asset Management Strategy & Planning Division",
+        "DeptCode": "01-01-02-01-01-01-02-02",
+        "Total": 5
+    },
+    {
+        "NodeCode": 600007,
+        "NodeParent": 500005,
+        "NodeName": "ส่วนระบบบริหารทรัพย์สิน",
+        "NodeNameEn": "Asset Management System  Division",
+        "DeptCode": "01-01-02-01-01-01-02-03",
+        "Total": 1
+    },
+    {
+        "NodeCode": 600008,
+        "NodeParent": 500004,
+        "NodeName": "ส่วนระบบรถไฟฟ้า",
+        "NodeNameEn": "M&E Division",
+        "DeptCode": "01-01-02-01-01-01-01-01",
+        "Total": 4
+    },
+    {
+        "NodeCode": 600009,
+        "NodeParent": 500004,
+        "NodeName": "ส่วนระบบสถานี",
+        "NodeNameEn": "Station Facility Division",
+        "DeptCode": "01-01-02-01-01-01-01-03",
+        "Total": 7
+    },
+    {
+        "NodeCode": 600010,
+        "NodeParent": 500013,
+        "NodeName": "ส่วนจัดการระบบค่าโดยสารและวางแผนการเดินรถ",
+        "NodeNameEn": "Revenue Administrator & Train Operations Planning Division",
+        "DeptCode": "01-01-02-01-01-03-01-01",
+        "Total": 1
+    },
+    {
+        "NodeCode": 600011,
+        "NodeParent": 500032,
+        "NodeName": "ส่วนสถานี BL 1",
+        "NodeNameEn": "Staton Division BL 1",
+        "DeptCode": "01-01-02-01-01-02-02-01",
+        "Total": 14
+    },
+    {
+        "NodeCode": 600012,
+        "NodeParent": 500033,
+        "NodeName": "ส่วนเจ้าหน้าที่ควบคุมรถ BL",
+        "NodeNameEn": "Train Crew  Division BL",
+        "DeptCode": "01-01-02-01-01-02-01-03",
+        "Total": 245
+    },
+    {
+        "NodeCode": 600013,
+        "NodeParent": 500033,
+        "NodeName": "ส่วนควบคุมการเดินรถ BL",
+        "NodeNameEn": "Control  Division BL",
+        "DeptCode": "01-01-02-01-01-02-01-01",
+        "Total": 47
+    },
+    {
+        "NodeCode": 600014,
+        "NodeParent": 500032,
+        "NodeName": "ส่วนสถานี PPL 1",
+        "NodeNameEn": "Staton Division  PPL 1",
+        "DeptCode": "01-01-02-01-01-02-02-03",
+        "Total": 16
+    },
+    {
+        "NodeCode": 600015,
+        "NodeParent": 500033,
+        "NodeName": "ส่วนเจ้าหน้าที่ควบคุมรถ PPL",
+        "NodeNameEn": "Train Crew  Division PPL",
+        "DeptCode": "01-01-02-01-01-02-01-04",
+        "Total": 122
+    },
+    {
+        "NodeCode": 600016,
+        "NodeParent": 500033,
+        "NodeName": "ส่วนควบคุมการเดินรถ PPL",
+        "NodeNameEn": "Control  Division PPL",
+        "DeptCode": "01-01-02-01-01-02-01-02",
+        "Total": 37
+    },
+    {
+        "NodeCode": 600018,
+        "NodeParent": 500018,
+        "NodeName": "ส่วนพัฒนาเชิงพาณิชย์",
+        "NodeNameEn": "Commercial Development Division",
+        "DeptCode": "01-01-02-01-00-02-01-02",
+        "Total": 1
+    },
+    {
+        "NodeCode": 600019,
+        "NodeParent": 500017,
+        "NodeName": "ส่วนบริหารงานพัฒนาธุรกิจ",
+        "NodeNameEn": "Business Management Division",
+        "DeptCode": "01-01-02-01-02-05-01-01",
+        "Total": 1
+    },
+    {
+        "NodeCode": 600020,
+        "NodeParent": 500017,
+        "NodeName": "ส่วนวิเคราะห์โครงการ",
+        "NodeNameEn": "Project Analysis Division",
+        "DeptCode": "01-01-02-01-02-05-01-02",
+        "Total": 1
+    },
+    {
+        "NodeCode": 600021,
+        "NodeParent": 500014,
+        "NodeName": "ส่วนวิศวกรรมโครงการ",
+        "NodeNameEn": "Project Engineering Division",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600022,
+        "NodeParent": 500006,
+        "NodeName": "ส่วนวางแผนโครงการ",
+        "NodeNameEn": "Project Planning Division",
+        "DeptCode": "01-01-02-01-02-03-01-01",
+        "Total": 4
+    },
+    {
+        "NodeCode": 600023,
+        "NodeParent": 500006,
+        "NodeName": "ส่วนดำเนินการโครงการ",
+        "NodeNameEn": "Project Execution Division",
+        "DeptCode": "01-01-02-01-02-03-01-02",
+        "Total": 8
+    },
+    {
+        "NodeCode": 600024,
+        "N odeParent": 500015,
+        "NodeName": "ส่วนพัฒนาระบบสารสนเทศ",
+        "NodeNameEn": "System Development Division",
+        "DeptCode": "01-01-02-01-03-03-01-01",
+        "Total": 1
+    },
+    {
+        "NodeCode": 600025,
+        "NodeParent": 500015,
+        "NodeName": "ส่วนเทคโนโลยีสารสนเทศ",
+        "NodeNameEn": "Information Technology Division",
+        "DeptCode": "01-01-02-01-03-03-01-02",
+        "Total": 1
+    },
+    {
+        "NodeCode": 600026,
+        "NodeParent": 500009,
+        "NodeName": "ส่วนบริหารทรัพยากรมนุษย์",
+        "NodeNameEn": "Human Resources Management Division (Branch 2 )",
+        "DeptCode": "01-01-02-01-03-01-00-01",
+        "Total": 1
+    },
+    {
+        "NodeCode": 600027,
+        "NodeParent": 500009,
+        "NodeName": "ส่วนพัฒนาบุคลากรระบบราง ",
+        "NodeNameEn": "Rail Business Academy Division",
+        "DeptCode": "01-01-02-01-03-01-00-02",
+        "Total": 8
+    },
+    {
+        "NodeCode": 600028,
+        "NodeParent": 500039,
+        "NodeName": "ส่วนกฎหมาย",
+        "NodeNameEn": "Legal Division",
+        "DeptCode": "01-01-02-01-00-01-03-01",
+        "Total": 5
+    },
+    {
+        "NodeCode": 600029,
+        "NodeParent": 500018,
+        "NodeName": "ส่วนสื่อสารและลูกค้าสัมพันธ์",
+        "NodeNameEn": "Customer Relations and Communications Division",
+        "DeptCode": "01-01-02-01-00-02-01-03",
+        "Total": 1
+    },
+    {
+        "NodeCode": 600030,
+        "NodeParent": 500016,
+        "NodeName": "ส่วนสนับสนุนปฎิบัติการ",
+        "NodeNameEn": "Operation Support Division",
+        "DeptCode": "01-01-02-01-03-02-01-01",
+        "Total": 1
+    },
+    {
+        "NodeCode": 600031,
+        "NodeParent": 500019,
+        "NodeName": "แผนกนักลงทุนสัมพันธ์",
+        "NodeNameEn": "Investor Relations Department",
+        "DeptCode": "01-01-02-01-04-01-01-02",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600032,
+        "NodeParent": 500019,
+        "NodeName": "แผนกงานประกันภัย",
+        "NodeNameEn": "Insurance Department",
+        "DeptCode": "01-01-02-01-04-01-01-01",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600033,
+        "NodeParent": 500020,
+        "NodeName": "แผนกปฏิบัติการการเงินทางพิเศษ",
+        "NodeNameEn": "Expressway Financial Operation",
+        "DeptCode": "01-01-02-01-04-01-01-03",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600034,
+        "NodeParent": 500020,
+        "NodeName": "แผนกวางแผนการเงิน",
+        "NodeNameEn": "Financial Planning Department",
+        "DeptCode": "01-01-02-01-04-01-01-05",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600035,
+        "NodeParent": 500021,
+        "NodeName": "แผนกตรวจสอบค่าผ่านทาง",
+        "NodeNameEn": "Toll Audit Department",
+        "DeptCode": "01-01-02-01-04-02-02-05",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600036,
+        "NodeParent": 500021,
+        "NodeName": "ส่วนวิเคราะห์ข้อมูลและพัฒนาระบบ",
+        "NodeNameEn": "Data Analysis and Development Division",
+        "DeptCode": "01-01-02-01-04-02-02-04",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600037,
+        "NodeParent": 500007,
+        "NodeName": "แผนกบัญชีทางพิเศษ",
+        "NodeNameEn": "Expressway Accounting Department",
+        "DeptCode": "01-01-02-01-04-02-01-03",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600038,
+        "NodeParent": 500007,
+        "NodeName": "ส่วนบัญชีระบบราง",
+        "NodeNameEn": "Rail Accounting Division",
+        "DeptCode": "01-01-02-01-04-02-01-02",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600039,
+        "NodeParent": 500008,
+        "NodeName": "แผนกธุรการทั่วไป",
+        "NodeNameEn": "General Affair Department",
+        "DeptCode": "01-01-02-01-03-02-02-03",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600040,
+        "NodeParent": 500008,
+        "NodeName": "แผนกจัดซื้อ/จัดหาทางพิเศษ",
+        "NodeNameEn": "Expressway Procurement Department",
+        "DeptCode": "01-01-02-01-03-02-02-02",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600041,
+        "NodeParent": 500008,
+        "NodeName": "ส่วนจัดซื้อ/จัดหาระบบราง",
+        "NodeNameEn": "Rail Procerement Division",
+        "DeptCode": "01-01-02-01-03-02-02-01",
+        "Total": 2
+    },
+    {
+        "NodeCode": 600042,
+        "NodeParent": 500010,
+        "NodeName": "แผนกนิติการและกำกับดูแล",
+        "NodeNameEn": "Legal & Compliance Department",
+        "DeptCode": "01-01-02-01-00-01-01-01",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600043,
+        "NodeParent": 500010,
+        "NodeName": "แผนกเลขานุการและงานประชุม",
+        "NodeNameEn": "Secretary and Conference Department",
+        "DeptCode": "01-01-02-01-00-01-01-03",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600044,
+        "NodeParent": 500010,
+        "NodeName": "แผนกภาพลักษณ์และสื่อสารการตลาด",
+        "NodeNameEn": "Coporate Image and Social Responsibility Department",
+        "DeptCode": "01-01-02-01-00-01-01-02",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600045,
+        "NodeParent": 500022,
+        "NodeName": "แผนกกู้ภัยและการจราจร SES/C+",
+        "NodeNameEn": "Recue and Traffic SES/C+ Department",
+        "DeptCode": "01-01-02-01-02-01-01-01",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600046,
+        "NodeParent": 500022,
+        "NodeName": "แผนกกู้ภัยและการจราจร SOE",
+        "NodeNameEn": "Resue and Traffic SOE Department",
+        "DeptCode": "01-01-02-01-02-01-01-02",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600047,
+        "NodeParent": 500022,
+        "NodeName": "แผนกสนับสนุนงานจราจร",
+        "No deNameEn": "Traffic Support Department",
+        "DeptCode": "01-01-02-01-02-01-01-03",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600048,
+        "NodeParent": 500023,
+        "NodeName": "แผนกจัดเก็บค่าผ่านทาง",
+        "NodeNameEn": "Toll Collection Department",
+        "DeptCode": "01-01-02-01-02-01-02-01",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600049,
+        "NodeParent": 500024,
+        "NodeName": "แผนกรายได้ค่าผ่านทาง",
+        "NodeNameEn": "Toll Revence Department",
+        "DeptCode": "01-01-02-01-02-01-03-01",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600050,
+        "NodeParent": 500024,
+        "NodeName": "แผนกรายได้ค่าผ่านทาง 2",
+        "NodeNameEn": "Toll Revence 2 Division",
+        "DeptCode": "01-01-02-01-02-01-03-01",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600051,
+        "NodeParent": 500025,
+        "NodeName": "แผนกบำรุงรักษาโยธา",
+        "NodeNameEn": "Civil Maintenance Department",
+        "DeptCode": "01-01-02-01-02-02-03-02",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600052,
+        "NodeParent": 500025,
+        "NodeName": "แผนกบำรุงรักษาโครงสร้าง",
+        "NodeNameEn": "Structural Maintenance Department",
+        "DeptCode": "01-01-02-01-02-02-03-01",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600053,
+        "NodeParent": 500025,
+        "NodeName": "แผนกบำรุงรักษาเครื่องกล",
+        "NodeNameEn": "Mechanical Maintenance Department",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600054,
+        "NodeParent": 500026,
+        "NodeName": "แผนกวิศวกรรมระบบควบคุมจราจร",
+        "NodeNameEn": "Traffic Control Engineering Department",
+        "DeptCode": "01-01-02-01-02-02-01-03",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600055,
+        "NodeParent": 500026,
+        "NodeName": "แผนกวิศวกรรมไฟฟ้า",
+        "NodeNameEn": "Electrical Engineering Department",
+        "DeptCode": "01-01-02-01-02-02-01-06",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600056,
+        "NodeParent": 500027,
+        "NodeName": "แผนกบริหารโครงการ",
+        "NodeNameEn": "Project Management Department",
+        "DeptCode": "01-01-02-01-02-02-05-01",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600057,
+        "NodeParent": 500027,
+        "NodeName": "แผนกวางแผนและพัฒนา",
+        "NodeNameEn": "Engineering Analysis Department",
+        "DeptCode": "01-01-02-01-02-04-01-02",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600058,
+        "NodeParent": 500001,
+        "NodeName": "ส่วนตรวจสอบภายใน",
+        "NodeNameEn": "Internal Audit Department",
+        "DeptCode": "01-01-01-00-00-00-01-01",
+        "Total": 4
+    },
+    {
+        "NodeCode": 600059,
+        "NodeParent": 500029,
+        "NodeName": "แผนกพัฒนาระบบงาน ทางพิเศษ",
+        "NodeNameEn": "Expressway System Development Department",
+        "DeptCode": "01-01-02-01-03-03-02-01",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600060,
+        "NodeParent": 500029,
+        "NodeName": "แผนกสนับสนุนระบบงาน ทางพิเศษ",
+        "NodeNameEn": "Expressway System Support Department",
+        "DeptCode": "01-01-02-01-03-03-02-02",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600061,
+        "NodeParent": 500030,
+        "NodeName": "แผนกบริหารทรัพยากรบุคคล (สาขา 1)",
+        "NodeNameEn": "Human Resources Management Department (Unit 1)",
+        "DeptCode": "01-01-02-01-03-01-01-02",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600062,
+        "NodeParent": 500030,
+        "NodeName": "แผนกฝึกอบรมและพัฒนาทรัพยากรบุคคล (สาขา 1)",
+        "NodeNameEn": "Human Resources Training & Development Department (Unit 1)",
+        "DeptCode": "01-01-02-01-03-01-01-03",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600063,
+        "NodeParent": 400003,
+        "NodeName": "ส่วนประสานงานโครงการ",
+        "NodeNameEn": "Project Coordination Division",
+        "DeptCode": "01-01-02-01-02-03-00-01",
+        "Total": 3
+    },
+    {
+        "NodeCode": 600064,
+        "NodeParent": 500034,
+        "NodeName": "ส่วนพัฒนาธุรกิจการชำระเงิน",
+        "NodeNameEn": "Payment Business Development Division",
+        "DeptCode": "01-01-02-01-02-03-03-01",
+        "Total": 2
+    },
+    {
+        "NodeCode": 600065,
+        "NodeParent": 500018,
+        "NodeName": "ส่วนธุรกิจสัมพันธ์ (ระบบราง)",
+        "NodeNameEn": "Business Relations Division (Rail)",
+        "DeptCode": "01-01-02-01-00-02-01-01",
+        "Total": 1
+    },
+    {
+        "NodeCode": 600067,
+        "NodeParent": 500021,
+        "NodeName": "ส่วนตรวจสอบรายได้ (สายสีน้ำเงิน)",
+        "NodeNameEn": "Income Audit Division BL",
+        "DeptCode": "01-01-02-01-04-02-02-01",
+        "Total": 1
+    },
+    {
+        "NodeCode": 600068,
+        "NodeParent": 500021,
+        "NodeName": "ส่วนตรวจสอบรายได้ (สายสีม่วง)",
+        "NodeNameEn": "Income Audit Division PPL",
+        "DeptCode": "01-01-02-01-04-02-02-02",
+        "Total": 1
+    },
+    {
+        "NodeCode": 600069,
+        "NodeParent": 500021,
+        "NodeName": "ส่วนบริหารรายได้ส่วนกลาง",
+        "NodeNameEn": "Clearing House Division",
+        "DeptCode": "01-01-02-01-04-02-02-03",
+        "Total": 1
+    },
+    {
+        "NodeCode": 600070,
+        "NodeParent": 500020,
+        "NodeName": "แผนกปฏิบัติการการเงินระบบราง",
+        "NodeNameEn": "Rail Financial Operation",
+        "DeptCode": "01-01-02-01-04-01-01-04",
+        "Total": 6
+    },
+    {
+        "NodeCode": 600071,
+        "NodeParent": 500026,
+        "NodeName": "แผนกวิศวกรรมระบบเก็บเงินค่าผ่านทาง",
+        "NodeNameEn": "To ll Collection Engineering Department",
+        "DeptCode": "01-01-02-01-02-02-01-04",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600072,
+        "NodeParent": 500026,
+        "NodeName": "แผนกวิศวกรรมซอฟท์แวร์",
+        "NodeNameEn": "Software Engineering Department",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600073,
+        "NodeParent": 500032,
+        "NodeName": "ส่วนสถานี  BL2",
+        "NodeNameEn": "Station BL 2",
+        "DeptCode": "01-01-02-01-01-02-02-02",
+        "Total": 16
+    },
+    {
+        "NodeCode": 600074,
+        "NodeParent": 500034,
+        "NodeName": "ส่วนพัฒนาผลิตภัณฑ์การชำระเงิน",
+        "NodeNameEn": "Payment Product Development Division",
+        "DeptCode": "01-01-02-01-02-03-03-02",
+        "Total": 3
+    },
+    {
+        "NodeCode": 600075,
+        "NodeParent": 500034,
+        "NodeName": "ส่วนสารสนเทศการชำระเงิน",
+        "NodeNameEn": "Payment Information Division",
+        "DeptCode": "01-01-02-01-02-03-03-03",
+        "Total": 3
+    },
+    {
+        "NodeCode": 600076,
+        "NodeParent": 500004,
+        "NodeName": "ส่วนระบบโครงสร้างพื้นฐาน",
+        "NodeNameEn": "Infrastructrue Division",
+        "DeptCode": "01-01-02-01-01-01-01-02",
+        "Total": 5
+    },
+    {
+        "NodeCode": 600077,
+        "NodeParent": 500011,
+        "NodeName": "ส่วนอาชีวอนามัยและความปลอดภัย",
+        "NodeNameEn": "Occupational Health & Safety Division",
+        "DeptCode": "01-01-02-01-00-03-01-03",
+        "Total": 1
+    },
+    {
+        "NodeCode": 600078,
+        "NodeParent": 500011,
+        "NodeName": "ส่วนควบคุมเอกสารการเดินรถ",
+        "NodeNameEn": "Rule & Document Division",
+        "DeptCode": "01-01-02-01-00-03-01-01",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600079,
+        "NodeParent": 500036,
+        "NodeName": "ส่วนตรวจติดตามคุณภาพ",
+        "NodeNameEn": "Quality Audit Division",
+        "DeptCode": "01-01-02-01-00-03-02-01",
+        "Total": 3
+    },
+    {
+        "NodeCode": 600080,
+        "NodeParent": 500013,
+        "NodeName": "ส่วนบริหารสัญญาและบัตรโดยสาร",
+        "NodeNameEn": "Contract & Fare Media Management Division",
+        "DeptCode": "01-01-02-01-01-03-01-02",
+        "Total": 1
+    },
+    {
+        "NodeCode": 600081,
+        "NodeParent": 500009,
+        "NodeName": "ส่วนพัฒนาองค์กร ",
+        "NodeNameEn": "Organization Development Division",
+        "DeptCode": "01-01-02-01-03-01-00-03",
+        "Total": 1
+    },
+    {
+        "NodeCode": 600082,
+        "NodeParent": 500037,
+        "NodeName": "แผนกบริหารโครงการ",
+        "NodeNameEn": "Project Management",
+        "DeptCode": "01-01-02-01-02-02-05-01",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600083,
+        "NodeParent": 500037,
+        "NodeName": "แผนกวิศวกรรมทางพิเศษ",
+        "NodeNameE n": "Expressway Engineering",
+        "DeptCode": "01-01-02-01-02-02-05-02",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600084,
+        "NodeParent": 500038,
+        "NodeName": "แผนกออกแบบและประมาณราคา",
+        "NodeNameEn": "Design & Cost Estimation",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600085,
+        "NodeParent": 500038,
+        "NodeName": "แผนกวางแผนและพัฒนา",
+        "NodeNameEn": "Plan and develop",
+        "DeptCode": "01-01-02-01-02-04-01-02",
+        "Total": 0
+    },
+    {
+        "NodeCode": 600086,
+        "NodeParent": 500039,
+        "NodeName": "ส่วนกำกับการปฏิบัติงาน",
+        "NodeNameEn": "Commerial Division",
+        "DeptCode": "01-01-02-01-00-01-03-02",
+        "Total": 3
+    },
+    {
+        "NodeCode": 600087,
+        "NodeParent": 500008,
+        "NodeName": "แผนกบริการกลาง U1",
+        "NodeNameEn": "General Service Department (U1)",
+        "DeptCode": "E321400",
+        "Total": 1
+    },
+    {
+        "NodeCode": 650001,
+        "NodeParent": 600008,
+        "NodeName": "กลุ่มระบบรถไฟฟ้า  BL",
+        "NodeNameEn": "M&E Group  BL",
+        "DeptCode": "01-01-02-01-01-01-01-01-01",
+        "Total": 1
+    },
+    {
+        "NodeCode": 650002,
+        "NodeParent": 600008,
+        "NodeName": "กลุ่มระบบรถไฟฟ้า PPL",
+        "NodeNameEn": "M&E Group PPL",
+        "DeptCode": "01-01-02-01-01-01-01-01-02",
+        "Total": 1
+    },
+    {
+        "NodeCode": 650003,
+        "NodeParent": 600076,
+        "NodeName": "กลุ่มระบบโครงสร้างพื้นฐาน  BL",
+        "NodeNameEn": "Infrastructrue Group BL",
+        "DeptCode": "01-01-02-01-01-01-01-02-01",
+        "Total": 1
+    },
+    {
+        "NodeCode": 650004,
+        "NodeParent": 600076,
+        "NodeName": "กลุ่มระบบโครงสร้างพื้นฐาน  PPL",
+        "NodeNameEn": "Infrastructrue Group PPL",
+        "DeptCode": "01-01-02-01-01-01-01-02-02",
+        "Total": 0
+    },
+    {
+        "NodeCode": 650005,
+        "NodeParent": 600009,
+        "NodeName": "กลุ่มระบบสถานี BL1",
+        "NodeNameEn": "Station Facility Group BL1",
+        "DeptCode": "01-01-02-01-01-01-01-03-01",
+        "Total": 1
+    },
+    {
+        "NodeCode": 650006,
+        "NodeParent": 600009,
+        "NodeName": "กลุ่มระบบสถานี BL2",
+        "NodeNameEn": "Station Facility Group BL2",
+        "DeptCode": "01-01-02-01-01-01-01-03-02",
+        "Total": 1
+    },
+    {
+        "NodeCode": 650007,
+        "NodeParent": 600009,
+        "NodeName": "กลุ่มระบบสถานี PPL",
+        "NodeNameEn": "Station Facility Group PPL1",
+        "DeptCode": "01-01-02-01-01-01-01-03-03",
+        "Total": 1
+    },
+    {
+        "NodeCode": 650008,
+        "NodeParent": 600007,
+        "NodeName": "กลุ่มวิเคราะห์สมรรถนะทรัพย์สิน",
+        "NodeNameEn": "Asset Performance Analysis Group",
+        "DeptCode": "01-01-02-01-01-01-02-03-01",
+        "Total": 1
+    },
+    {
+        "NodeCode": 650009,
+        "NodeParent": 600007,
+        "NodeName": "กลุ่มพัฒนาระบบงานบริหารทรัพย์สิน",
+        "NodeNameEn": "Asset Management Development Group",
+        "DeptCode": "01-01-02-01-01-01-02-03-02",
+        "Total": 1
+    },
+    {
+        "NodeCode": 650010,
+        "NodeParent": 600076,
+        "NodeName": "กลุ่มระบบจัดเก็บค่าโดยสารอัตโนมัติ",
+        "NodeNameEn": "Automatic Fare Collection Group",
+        "DeptCode": "01-01-02-01-01-01-01-02-03",
+        "Total": 1
+    },
+    {
+        "NodeCode": 700001,
+        "NodeParent": 600001,
+        "NodeName": "แผนกประกันความปลอดภัย",
+        "NodeNameEn": "System Assurance Section",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700002,
+        "NodeParent": 600077,
+        "NodeName": "แผนกอาชีวอนามัยและความปลอดภัย BL",
+        "NodeNameEn": "Health and Safety Section BL",
+        "DeptCode": "01-01-02-01-00-03-01-03-00-01",
+        "Total": 13
+    },
+    {
+        "NodeCode": 700003,
+        "NodeParent": 600078,
+        "NodeName": "แผนกเอกสารการเดินรถและการสื่อสาร",
+        "NodeNameEn": "Document & Communication Section",
+        "DeptCode": "01-01-02-01-00-03-01-01-00-02",
+        "Total": 6
+    },
+    {
+        "NodeCode": 700004,
+        "NodeParent": 600002,
+        "NodeName": "แผนกประกันคุณภาพ",
+        "NodeNameEn": "Quality Assurance Section",
+        "DeptCode": "01-01-02-01-00-03-02-02-00-02",
+        "Total": 7
+    },
+    {
+        "NodeCode": 700005,
+        "NodeParent": 600002,
+        "NodeName": "แผนกกลยุทธ์และความเสี่ยงองค์กร",
+        "NodeNameEn": "Strategy and Enterprise Risk Management Section",
+        "DeptCode": "01-01-02-01-00-03-02-02-00-01",
+        "Total": 4
+    },
+    {
+        "NodeCode": 700006,
+        "NodeParent": 600011,
+        "NodeName": "สถานีบางซื่อ",
+        "NodeNameEn": "BAN",
+        "DeptCode": "01-01-02-01-01-02-02-01-00-11",
+        "Total": 36
+    },
+    {
+        "NodeCode": 700007,
+        "NodeParent": 600011,
+        "NodeName": "สถานีกำแพงเพชร",
+        "NodeNameEn": "KAM",
+        "DeptCode": "01-01-02-01-01-02-02-01-00-12",
+        "Total": 25
+    },
+    {
+        "NodeCode": 700008,
+        "NodeParent": 600011,
+        "NodeName": "สถานีสวนจตุจักร",
+        "NodeNameEn": "CHA",
+        "DeptCode": "01-01-02-01-01-02-02-01-00-13",
+        "Total": 29
+    },
+    {
+        "NodeCode": 700009,
+        "NodeParent": 600011,
+        "NodeName": "สถานีพหลโยธิน",
+        "NodeNameEn": "PHA",
+        "DeptCode": "01-01-02-01-01-02-02-01-00-14",
+        "Total": 30
+    },
+    {
+        "NodeCode": 700010,
+        "NodeParent": 600011,
+        "NodeName": "สถานีลาดพร้าว",
+        "NodeNameEn": "LAT",
+        "DeptCode": "01-01-02-01-01-02-02-01-00-15",
+        "Total": 29
+    },
+    {
+        "NodeCode": 700011,
+        " NodeParent": 600011,
+        "NodeName": "สถานีรัชดาภิเษก",
+        "NodeNameEn": "RAT",
+        "DeptCode": "01-01-02-01-01-02-02-01-00-16",
+        "Total": 25
+    },
+    {
+        "NodeCode": 700012,
+        "NodeParent": 600011,
+        "NodeName": "สถานีสุทธิสาร",
+        "NodeNameEn": "SUT",
+        "DeptCode": "01-01-02-01-01-02-02-01-00-17",
+        "Total": 26
+    },
+    {
+        "NodeCode": 700013,
+        "NodeParent": 600011,
+        "NodeName": "สถานีห้วยขวาง",
+        "NodeNameEn": "HUI",
+        "DeptCode": "01-01-02-01-01-02-02-01-00-18",
+        "Total": 28
+    },
+    {
+        "NodeCode": 700014,
+        "NodeParent": 600011,
+        "NodeName": "สถานีศูนย์วัฒนธรรมแห่งประเทศไทย",
+        "NodeNameEn": "CUL",
+        "DeptCode": "01-01-02-01-01-02-02-01-00-19",
+        "Total": 30
+    },
+    {
+        "NodeCode": 700015,
+        "NodeParent": 600011,
+        "NodeName": "สถานีพระราม9",
+        "NodeNameEn": "RAM",
+        "DeptCode": "01-01-02-01-01-02-02-01-00-20",
+        "Total": 33
+    },
+    {
+        "NodeCode": 700016,
+        "NodeParent": 600011,
+        "NodeName": "สถานีเพชรบุรี",
+        "NodeNameEn": "PET",
+        "DeptCode": "01-01-02-01-01-02-02-01-00-21",
+        "Total": 32
+    },
+    {
+        "NodeCode": 700017,
+        "NodeParent": 600011,
+        "NodeName": "สถานีสุขุมวิท",
+        "NodeNameEn": "SUK",
+        "DeptCode": "01-01-02-01-01-02-02-01-00-22",
+        "Total": 38
+    },
+    {
+        "NodeCode": 700018,
+        "NodeParent": 600011,
+        "NodeName": "สถานีศูนย์การประชุมแห่งชาติสิริกิติ์",
+        "NodeNameEn": "SIR",
+        "DeptCode": "01-01-02-01-01-02-02-01-00-23",
+        "Total": 25
+    },
+    {
+        "NodeCode": 700019,
+        "NodeParent": 600011,
+        "NodeName": "สถานีคลองเตย",
+        "NodeNameEn": "KHO",
+        "DeptCode": "01-01-02-01-01-02-02-01-00-24",
+        "Total": 19
+    },
+    {
+        "NodeCode": 700020,
+        "NodeParent": 600011,
+        "NodeName": "สถานีลุมพินี",
+        "NodeNameEn": "LUM",
+        "DeptCode": "01-01-02-01-01-02-02-01-00-25",
+        "Total": 24
+    },
+    {
+        "NodeCode": 700021,
+        "NodeParent": 600011,
+        "NodeName": "สถานีสีลม",
+        "NodeNameEn": "SIL",
+        "DeptCode": "01-01-02-01-01-02-02-01-00-26",
+        "Total": 25
+    },
+    {
+        "NodeCode": 700022,
+        "NodeParent": 600011,
+        "NodeName": "สถานีสามย่าน",
+        "NodeNameEn": "SAM",
+        "DeptCode": "01-01-02-01-01-02-02-01-00-27",
+        "Total": 20
+    },
+    {
+        "NodeCode": 700023,
+        "NodeParent": 600011,
+        "NodeName": "สถานีหัวลำโพง",
+        "NodeNameEn": "HUA",
+        "DeptCode": "01-01-02-01-01-02-02-01-00-28",
+        "Total": 18
+    },
+    {
+        "NodeCode": 700024,
+        "NodeParent": 600014,
+        "NodeName": "สถานีคลองบางไผ่",
+        "NodeNameEn": "PP01",
+        "DeptCode": "01-01-02-01-01-02-02-03-00-01",
+        "Total": 27
+    },
+    {
+        "NodeCode": 700025,
+        "NodeParent": 600014,
+        "NodeName": "สถานีตลาดบางใหญ่",
+        "NodeNameEn": "PP02",
+        "DeptCode": "01-01-02-01-01-02-02-03-00-02",
+        "Total": 27
+    },
+    {
+        "NodeCode": 700026,
+        "NodeParent": 600014,
+        "NodeName": "สถานีสามแยกบางใหญ่",
+        "NodeNameEn": "PP03",
+        "DeptCode": "01-01-02-01-01-02-02-03-00-03",
+        "Total": 27
+    },
+    {
+        "NodeCode": 700027,
+        "NodeParent": 600014,
+        "NodeName": "สถานีบางพลู",
+        "NodeNameEn": "PP04",
+        "DeptCode": "01-01-02-01-01-02-02-03-00-04",
+        "Total": 26
+    },
+    {
+        "NodeCode": 700028,
+        "NodeParent": 600014,
+        "NodeName": "สถานีบางรักใหญ่",
+        "NodeNameEn": "PP05",
+        "DeptCode": "01-01-02-01-01-02-02-03-00-05",
+        "Total": 25
+    },
+    {
+        "NodeCode": 700029,
+        "NodeParent": 600014,
+        "NodeName": "สถานีบางรักน้อย-ท่าอิฐ",
+        "NodeNameEn": "PP06",
+        "DeptCode": "01-01-02-01-01-02-02-03-00-06",
+        "Total": 24
+    },
+    {
+        "NodeCode": 700030,
+        "NodeParent": 600014,
+        "NodeName": "สถานีไทรม้า",
+        "NodeNameEn": "PP07",
+        "DeptCode": "01-01-02-01-01-02-02-03-00-07",
+        "Total": 27
+    },
+    {
+        "NodeCode": 700031,
+        "NodeParent": 600014,
+        "NodeName": "สถานีสะพานพระนั่งเกล้า",
+        "NodeNameEn": "PP08",
+        "DeptCode": "01-01-02-01-01-02-02-03-00-08",
+        "Total": 23
+    },
+    {
+        "NodeCode": 700032,
+        "NodeParent": 600014,
+        "NodeName": "สถานีแยกนนทบุรี 1",
+        "NodeNameEn": "PP09",
+        "DeptCode": "01-01-02-01-01-02-02-03-00-09",
+        "Total": 24
+    },
+    {
+        "NodeCode": 700033,
+        "NodeParent": 600014,
+        "NodeName": "สถานีบางกระสอ",
+        "NodeNameEn": "PP10",
+        "DeptCode": "01-01-02-01-01-02-02-03-00-10",
+        "Total": 25
+    },
+    {
+        "NodeCode": 700034,
+        "NodeParent": 600014,
+        "NodeName": "สถานีศูนย์ราชการนนทบุรี",
+        "NodeNameEn": "PP11",
+        "DeptCode": "01-01-02-01-01-02-02-03-00-11",
+        "Total": 25
+    },
+    {
+        "NodeCode": 700035,
+        "NodeParent": 600014,
+        "NodeName": "สถานีกระทรวงสาธารณสุข",
+        "NodeNameEn": "PP12",
+        "DeptCode": "01-01-02-01-01-02-02-03-00-12",
+        "Total": 26
+    },
+    {
+        "NodeCode": 700036,
+        "NodeParent": 600014,
+        "NodeName": "สถานีแยกติวานนท์",
+        "NodeNameEn": "PP13",
+        "DeptCode": "01-01-02-01-01-02-02-03-00-13",
+        "Total": 24
+    },
+    {
+        "NodeCode": 700037,
+        "NodeParent": 600014,
+        "NodeName": "สถานีวงศ์สว่าง",
+        "NodeNameEn": "PP14",
+        "DeptCode": "01-01-02-01-01-02-02-03-00-14",
+        "Total": 24
+    },
+    {
+        "NodeCode": 700038,
+        "NodeParent": 600014,
+        "NodeName": "สถานีบางซ่อน",
+        "NodeNameEn": "PP15",
+        "DeptCode": "01-01-02-01-01-02-02-03-00-15",
+        "Total": 25
+    },
+    {
+        "NodeCode": 700039,
+        "NodeParent": 600014,
+        "NodeName": "สถานีเตาปูน",
+        "NodeNameEn": "PP16",
+        "DeptCode": "01-01-02-01-01-02-02-03-00-16",
+        "Total": 37
+    },
+    {
+        "NodeCode": 700040,
+        "NodeParent": 600010,
+        "NodeName": "แผนกวางแผนและพัฒนาการเดินรถ",
+        "NodeNameEn": "Train Operations Planning & Development Section",
+        "DeptCode": "01-01-02-01-01-03-01-01-00-04",
+        "Total": 6
+    },
+    {
+        "NodeCode": 700041,
+        "NodeParent": 600080,
+        "NodeName": "แผนกบริหารสัญญา",
+        "NodeNameEn": "Contract Management Section",
+        "DeptCode": "01-01-02-01-01-03-01-02-00-03",
+        "Total": 8
+    },
+    {
+        "NodeCode": 700042,
+        "NodeParent": 600080,
+        "NodeName": "แผนกบริหารบัตรโดยสาร BL",
+        "NodeNameEn": "Fare Media Management Section BL",
+        "DeptCode": "01-01-02-01-01-03-01-02-00-01",
+        "Total": 6
+    },
+    {
+        "NodeCode": 700043,
+        "NodeParent": 600080,
+        "NodeName": "แผนกบริหารบัตรโดยสาร PPL",
+        "NodeNameEn": "Fare Media Management Section PPL",
+        "DeptCode": "01-01-02-01-01-03-01-02-00-02",
+        "Total": 5
+    },
+    {
+        "NodeCode": 700044,
+        "NodeParent": 600010,
+        "NodeName": "แผนกจัดการระบบค่าโดยสาร BL",
+        "NodeNameEn": "Revenue Administration Section BL",
+        "DeptCode": "01-01-02-01-01-03-01-01-00-01",
+        "Total": 7
+    },
+    {
+        "NodeCode": 700045,
+        "NodeParent": 600010,
+        "NodeName": "แผนกจัดการระบบค่าโดยสาร PPL",
+        "NodeNameEn": "Revenue Administration Section PPL",
+        "DeptCode": "01-01-02-01-01-03-01-01-00-02",
+        "Total": 4
+    },
+    {
+        "NodeCode": 700046,
+        "NodeParent": 600010,
+        "NodeName": "แผนกจัดการระบบค่าโดยสารส่วนกลาง",
+        "NodeNameEn": "Revenue Administration Section (Central Clearing)",
+        "DeptCode": "01-01-02-01-01-03-01-01-00-03",
+        "Total": 3
+    },
+    {
+        "NodeCode": 700047,
+        "NodeParent": 650001,
+        "NodeName": "ระบบรถไฟฟ้าและรถซ่อมบำรุง BL",
+        "NodeNameEn": "Rolling Stock BL",
+        "DeptCode": "01-01-02-01-01-01-01-01-01-03",
+        "Total": 5
+    },
+    {
+        "NodeCode": 700048,
+        "NodeParent": 650001,
+        "NodeName": "ระบบอาณัติสัญญาณและระบบประตูกั้นชานชาลา BL",
+        "NodeNameEn": "Signalling-Platform Screen Door BL",
+        "DeptCode": "01-01-02-01-01-01-01-01-01-01",
+        "Total": 4
+    },
+    {
+        "NodeCode": 700049,
+        "NodeParent": 650001,
+        "NodeName": "ระบบสื่อสาร BL",
+        "NodeNameEn": "Communication BL",
+        "DeptCode": "01-01-02-01-01-01-01-01-01-02",
+        "Total": 2
+    },
+    {
+        "NodeCode": 700051,
+        "NodeParent": 650010,
+        "NodeName": "ระบบจัดเก็บค่าโดยสารอัตโนมัติ",
+        "NodeNameEn": "Automatic Fare Collection BL",
+        "DeptCode": "01-01-02-01-01-01-01-02-03-01",
+        "Total": 54
+    },
+    {
+        "NodeCode": 700053,
+        "NodeParent": 650005,
+        "NodeName": "ระบบควบคุมสภาวะแวดล้อม BL1",
+        "NodeNameEn": "Environmental Control System BL1",
+        "DeptCode": "01-01-02-01-01-01-01-03-01-03",
+        "Total": 5
+    },
+    {
+        "NodeCode": 700055,
+        "NodeParent": 600009,
+        "NodeName": "ระบบลิฟต์และบันไดเลื่อน",
+        "NodeNameEn": "Fire Detection & Alarm System/Fire Protection System (Gas)/Lift & Escator BL1",
+        "DeptCode": "01-01-02-01-01-01-01-03-00-01",
+        "Total": 4
+    },
+    {
+        "NodeCode": 700056,
+        "NodeParent": 650005,
+        "NodeName": "ระบบน้ำ  BL1",
+        "NodeNameEn": "Water System BL1",
+        "DeptCode": "01-01-02-01-01-01-01-03-01-02",
+        "Total": 29
+    },
+    {
+        "NodeCode": 700057,
+        "NodeParent": 600006,
+        "NodeName": "ระบบประสานงานโครงการ",
+        "NodeNameEn": "Project Coordination",
+        "DeptCode": "01-01-02-01-01-01-02-02-00-02",
+        "Total": 5
+    },
+    {
+        "NodeCode": 700058,
+        "NodeParent": 600005,
+        "NodeName": "แผนกสนับสนุนงานวิศวกรรมและซ่อมบำรุง",
+        "NodeNameEn": "Engineering & Maintenance Support Section (Blue Line1)",
+        "DeptCode": "01-01-02-01-01-01-02-01-00-04",
+        "Total": 11
+    },
+    {
+        "NodeCode": 700059,
+        "NodeParent": 600005,
+        "NodeName": "ศูนย์จัดการงานซ่อมบำรุง BL1",
+        "NodeNameEn": "Maintenance Management Center BL1",
+        "DeptCode": "01-01-02-01-01-01-02-01-00-01",
+        "Total": 36
+    },
+    {
+        "NodeCode": 700060,
+        "NodeParent": 600005,
+        "NodeName": "ศูนย์จัดการงานซ่อมบำรุง PPL1",
+        "NodeNameEn": "Maintenance Management Center PPL1",
+        "DeptCode": "01-01-02-01-01-01-02-01-00-03",
+        "Total": 34
+    },
+    {
+        "NodeCode": 700061,
+        "NodeParent": 600006,
+        "NodeName": "แผนกวางแผนกลยุทธ์และบริหารทรัพย์สิน",
+        "NodeNameEn": "Asset Management Strategy & Planning Section",
+        "DeptCode": "01-01-02-01-01-01-02-02-00-01",
+        "Total": 1
+    },
+    {
+        "NodeCode": 700062,
+        "NodeParent": 600007,
+        "NodeName": "ระบบวิเคราะห์สมรรถนะทรัพย์สิน",
+        "NodeNameEn": "Asset Performance Management System",
+        "DeptCode": "01-01-02-01-01-01-02-03-01-01",
+        "Total": 7
+    },
+    {
+        "NodeCode": 700063,
+        "NodeParent": 600007,
+        "NodeName": "ระบบพัฒนาระบบงานบริหารทรัพย์สิน",
+        "NodeNameEn": "Enterprise R esource Planning System",
+        "DeptCode": "01-01-02-01-01-01-02-03-02-01",
+        "Total": 7
+    },
+    {
+        "NodeCode": 700064,
+        "NodeParent": 600029,
+        "NodeName": "แผนกประชาสัมพันธ์",
+        "NodeNameEn": "Public Relations Section",
+        "DeptCode": "01-01-02-01-00-02-01-03-00-02",
+        "Total": 19
+    },
+    {
+        "NodeCode": 700065,
+        "NodeParent": 600065,
+        "NodeName": "แผนกกิจกรรมสังคม",
+        "NodeNameEn": "Social Activities Section",
+        "DeptCode": "01-01-02-01-00-02-01-01-00-01",
+        "Total": 7
+    },
+    {
+        "NodeCode": 700066,
+        "NodeParent": 600018,
+        "NodeName": "แผนกพัฒนาเชิงพาณิชย์",
+        "NodeNameEn": "Commercial Development Section",
+        "DeptCode": "01-01-02-01-00-02-01-02-00-01",
+        "Total": 13
+    },
+    {
+        "NodeCode": 700067,
+        "NodeParent": 600019,
+        "NodeName": "แผนกบริหารงานพัฒนาธุรกิจ",
+        "NodeNameEn": "Business Management Section",
+        "DeptCode": "01-01-02-01-02-05-01-01-00-01",
+        "Total": 1
+    },
+    {
+        "NodeCode": 700068,
+        "NodeParent": 600020,
+        "NodeName": "แผนกวิเคราะห์โครงการ",
+        "NodeNameEn": "Project Analysis Section",
+        "DeptCode": "01-01-02-01-02-05-01-02-00-01",
+        "Total": 3
+    },
+    {
+        "NodeCode": 700069,
+        "NodeParent": 600024,
+        "NodeName": "แผนกพัฒนาระบบสารสนเทศสนับสนุนงานส่วนกลาง",
+        "NodeNameEn": "General Support System Development Section",
+        "DeptCode": "01-01-02-01-03-03-01-01-00-02",
+        "Total": 3
+    },
+    {
+        "NodeCode": 700070,
+        "NodeParent": 600025,
+        "NodeName": "แผนกบริหารระบบสารสนเทศ (ส่วนกลาง)",
+        "NodeNameEn": "System Engineering Section (Common)",
+        "DeptCode": "01-01-02-01-03-03-01-02-00-02",
+        "Total": 3
+    },
+    {
+        "NodeCode": 700071,
+        "NodeParent": 600025,
+        "NodeName": "แผนกสนับสนุนระบบสารสนเทศ",
+        "NodeNameEn": "System Support Section",
+        "DeptCode": "01-01-02-01-03-03-01-02-00-04",
+        "Total": 5
+    },
+    {
+        "NodeCode": 700072,
+        "NodeParent": 600026,
+        "NodeName": "แผนกบริหารงานบุคคล",
+        "NodeNameEn": "Personal Management Section (Unit 2)",
+        "DeptCode": "01-01-02-01-03-01-00-01-00-01",
+        "Total": 11
+    },
+    {
+        "NodeCode": 700073,
+        "NodeParent": 600081,
+        "NodeName": "แผนกความผูกพันพนักงาน ",
+        "NodeNameEn": "Engagement Section",
+        "DeptCode": "01-01-02-01-03-01-00-03-00-02",
+        "Total": 6
+    },
+    {
+        "NodeCode": 700074,
+        "NodeParent": 600026,
+        "NodeName": "แผนกสรรหาและว่าจ้าง",
+        "NodeNameEn": "Recruitment & Hiring Section (Unit 2)",
+        "DeptCode": "01-01-02-01-03-01-00-01-00-02",
+        "Total": 4
+    },
+    {
+        "NodeCode": 700075,
+        "NodeParent": 600027,
+        "NodeName": "แผนกฝึกอบรมและพัฒนา",
+        "NodeNameEn": "Training & Development Section",
+        "DeptCode": "01-01-02-01-03-01-00-02-00-01",
+        "Total": 4
+    },
+    {
+        "NodeCode": 700076,
+        "NodeParent": 600027,
+        "NodeName": "แผนกบริหารงานฝึกอบรม ",
+        "NodeNameEn": "Training Administration Section (Unit 2)",
+        "DeptCode": "01-01-02-01-03-01-00-02-00-02",
+        "Total": 9
+    },
+    {
+        "NodeCode": 700077,
+        "NodeParent": 600027,
+        "NodeName": "แผนกผู้ฝึกสอน ",
+        "NodeNameEn": "Trainer Section (Unit 2)",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700078,
+        "NodeParent": 600027,
+        "NodeName": "แผนกวัดผลและควบคุมใบอนุญาต",
+        "NodeNameEn": "Training Evaluation & License Control Section (Unit 2)",
+        "DeptCode": "01-01-02-01-03-01-00-02-00-03",
+        "Total": 4
+    },
+    {
+        "NodeCode": 700079,
+        "NodeParent": 500009,
+        "NodeName": "แผนกสารสนเทศด้านทรัพยากรบุคคล",
+        "NodeNameEn": "Human Resource Information System",
+        "DeptCode": "01-01-02-01-03-01-00-00-00-01",
+        "Total": 3
+    },
+    {
+        "NodeCode": 700082,
+        "NodeParent": 600029,
+        "NodeName": "แผนกลูกค้าสัมพันธ์",
+        "NodeNameEn": "Customer Relations  Section",
+        "DeptCode": "01-01-02-01-00-02-01-03-00-03",
+        "Total": 5
+    },
+    {
+        "NodeCode": 700083,
+        "NodeParent": 600065,
+        "NodeName": "แผนกต้อนรับและบริการ",
+        "NodeNameEn": "Reception and Service  Section",
+        "DeptCode": "01-01-02-01-00-02-01-01-00-02",
+        "Total": 6
+    },
+    {
+        "NodeCode": 700084,
+        "NodeParent": 600029,
+        "NodeName": "ศูนย์บริการข้อมูล",
+        "NodeNameEn": "Informations Service Center",
+        "DeptCode": "01-01-02-01-00-02-01-03-00-01",
+        "Total": 10
+    },
+    {
+        "NodeCode": 700085,
+        "NodeParent": 600030,
+        "NodeName": "แผนกสนับสนุนธุรการทั่วไป (สายสีน้ำเงิน)",
+        "NodeNameEn": "Administration Support Section BL",
+        "DeptCode": "01-01-02-01-03-02-01-01-00-03",
+        "Total": 46
+    },
+    {
+        "NodeCode": 700086,
+        "NodeParent": 600030,
+        "NodeName": "แผนกสนับสนุนธุรการทั่วไป (สายสีม่วง)",
+        "NodeNameEn": "Administration Support Section PPL",
+        "DeptCode": "01-01-02-01-03-02-01-01-00-04",
+        "Total": 19
+    },
+    {
+        "NodeCode": 700087,
+        "NodeParent": 600030,
+        "NodeName": "แผนกบริการกลาง",
+        "NodeNameEn": "General Service Section",
+        "DeptCode": "01-01-02-01-03-02-01-01-00-01",
+        "Total": 16
+    },
+    {
+        "NodeCode": 700088,
+        "NodeParent": 600030,
+        "NodeName": "แผนกบริหารอาคาร",
+        "NodeNameEn": "Building Management Section",
+        "DeptCode": "01-01-02-01-03-02-01-01-00-02",
+        "Total": 13
+    },
+    {
+        "NodeCode": 700089,
+        "NodeParent": 600031,
+        "NodeName": "ส่วนงานนักลงทุนสัมพันธ์",
+        "NodeNameEn": "Investor Relations  Section",
+        "DeptCode": "01-01-02-01-04-01-01-02-00-01",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700090,
+        "NodeParent": 600032,
+        "NodeName": "ส่วนงานประกันภัยโครงการ",
+        "NodeNameEn": "Project Insurance  Section",
+        "DeptCode": "01-01-02-01-04-01-01-01-00-02",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700091,
+        "NodeParent": 600032,
+        "NodeName": "ส่วนงานประกันภัยทั่วไป",
+        "NodeNameEn": "General Insurance  Section",
+        "DeptCode": "01-01-02-01-04-01-01-01-00-01",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700092,
+        "NodeParent": 600033,
+        "NodeName": "ส่วนงานจ่ายเช็ค 1",
+        "NodeNameEn": "Payment1 Section",
+        "DeptCode": "01-01-02-01-04-01-01-03-00-01",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700093,
+        "NodeParent": 600070,
+        "NodeName": "ส่วนงานจ่ายเช็ค 2",
+        "NodeNameEn": "Payment2 Section",
+        "DeptCode": "01-01-02-01-04-01-01-04-00-01",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700094,
+        "NodeParent": 600033,
+        "NodeName": "ส่วนงานรับชำระ 1",
+        "NodeNameEn": "Receive1 Section",
+        "DeptCode": "01-01-02-01-04-01-01-03-00-03",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700095,
+        "NodeParent": 600034,
+        "NodeName": "ส่วนงานบริหารเงินกู้",
+        "NodeNameEn": "Credit Management  Section",
+        "DeptCode": "01-01-02-01-04-01-01-05-00-01",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700096,
+        "NodeParent": 600034,
+        "NodeName": "ส่วนงานวางแผนทางพิเศษ",
+        "NodeNameEn": "Planning Section",
+        "DeptCode": "01-01-02-01-04-01-01-05-00-02",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700097,
+        "NodeParent": 600033,
+        "NodeName": "ส่วนงานลงทุน",
+        "NodeNameEn": "Investment Section",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700098,
+        "NodeParent": 600034,
+        "NodeName": "ส่วนงานบริหารเงิน",
+        "NodeNameEn": "Treasury  Section",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700099,
+        "NodeParent": 600035,
+        "NodeName": "ส่วนงานตรวจสอบค่าผ่านทาง1",
+        "NodeNameEn": "Toll Audit 1 Section",
+        "DeptCode": "01-01-02-01-04-02-02-05-00-03",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700100,
+        "NodeParent": 600035,
+        "NodeName": "ส่วนงานตรวจสอบค่าผ่านทาง2",
+        "NodeNameEn": "Toll Audit 2 Section",
+        "De ptCode": "01-01-02-01-04-02-02-05-00-04",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700101,
+        "NodeParent": 600035,
+        "NodeName": "ส่วนงานงานข้อมูล",
+        "NodeNameEn": "Toll Data Section",
+        "DeptCode": "01-01-02-01-04-02-02-05-00-02",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700102,
+        "NodeParent": 600035,
+        "NodeName": "ส่วนงาน Easy Pass",
+        "NodeNameEn": "Easy Pass Section",
+        "DeptCode": "01-01-02-01-04-02-02-05-00-01",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700103,
+        "NodeParent": 600067,
+        "NodeName": "แผนกตรวจสอบรายได้ (สายสีน้ำเงิน 1)",
+        "NodeNameEn": "Income Audit Section BL1",
+        "DeptCode": "01-01-02-01-04-02-02-01-00-01",
+        "Total": 9
+    },
+    {
+        "NodeCode": 700104,
+        "NodeParent": 600068,
+        "NodeName": "แผนกตรวจสอบรายได้ (สายสีม่วง)",
+        "NodeNameEn": "Income Audit Section PPL",
+        "DeptCode": "01-01-02-01-04-02-02-02-00-01",
+        "Total": 6
+    },
+    {
+        "NodeCode": 700105,
+        "NodeParent": 600069,
+        "NodeName": "แผนกบริหารรายได้ส่วนกลาง",
+        "NodeNameEn": "Clearing House Section",
+        "DeptCode": "01-01-02-01-04-02-02-03-00-01",
+        "Total": 2
+    },
+    {
+        "NodeCode": 700106,
+        "NodeParent": 600037,
+        "NodeName": "ส่วนงานตรวจจ่าย1",
+        "NodeNameEn": "Disbursement Section",
+        "DeptCode": "01-01-02-01-04-02-01-02-00-02",
+        "Total": 1
+    },
+    {
+        "NodeCode": 700107,
+        "NodeParent": 600037,
+        "NodeName": "ส่วนงานงบการเงิน",
+        "NodeNameEn": "Financial Statement Section",
+        "DeptCode": "01-01-02-01-04-02-01-02-00-01",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700108,
+        "NodeParent": 600037,
+        "NodeName": "ส่วนงานงบประมาณ/บัญชีบริหาร",
+        "NodeNameEn": "Budget / Managerial Accounting Section",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700109,
+        "NodeParent": 600037,
+        "NodeName": "ส่วนงานรับเงิน/ภาษีอากร",
+        "NodeNameEn": "Receive/Taxation Section",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700110,
+        "NodeParent": 600037,
+        "NodeName": "ส่วนงาน CONSO",
+        "NodeNameEn": "Consolidation Section",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700111,
+        "NodeParent": 600038,
+        "NodeName": "แผนกบัญชีการเงิน",
+        "NodeNameEn": "Financial Accounting Section",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700112,
+        "NodeParent": 600038,
+        "NodeName": "ส่วนงานงบประมาณ/บัญชีบริหารระบบราง",
+        "NodeNameEn": "Management Accounting Section",
+        "DeptCode": "01-01-02-01-04-02-01-01-00-02",
+        "Total": 1
+    },
+    {
+        "NodeCode": " 700113",
+        "NodeParent": 600039,
+        "NodeName": "ส่วนงานธุรการภายนอก",
+        "NodeNameEn": "External General Affair Section",
+        "DeptCode": "01-01-02-01-03-02-02-03-00-01",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700114,
+        "NodeParent": 600039,
+        "NodeName": "ส่วนงานธุรการภายใน",
+        "NodeNameEn": "Internal General Affair Section",
+        "DeptCode": "01-01-02-01-03-02-02-03-00-02",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700115,
+        "NodeParent": 600040,
+        "NodeName": "ส่วนงานงานใบสั่งซื้อ/สั่งจ้าง",
+        "NodeNameEn": "Purchase Order Section",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700116,
+        "NodeParent": 600040,
+        "NodeName": "ส่วนงานงานสัญญาและบริการศูนย์ซ่อม",
+        "NodeNameEn": "Contract and Service Section",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700117,
+        "NodeParent": 600041,
+        "NodeName": "แผนกจัดหาวิศวกรรม",
+        "NodeNameEn": "Engineering Procurement Section",
+        "DeptCode": "01-01-02-01-03-02-02-01-00-02",
+        "Total": 4
+    },
+    {
+        "NodeCode": 700118,
+        "NodeParent": 600041,
+        "NodeName": "แผนกจัดหาทั่วไป",
+        "NodeNameEn": "General Procurement Section",
+        "DeptCode": "01-01-02-01-03-02-02-01-00-01",
+        "Total": 9
+    },
+    {
+        "NodeCode": 700119,
+        "NodeParent": 600041,
+        "NodeName": "แผนกสนับสนุนและพัฒนางานจัดหา",
+        "NodeNameEn": "Procurement Support & Development Section",
+        "DeptCode": "01-01-02-01-03-02-02-01-00-03",
+        "Total": 3
+    },
+    {
+        "NodeCode": 700120,
+        "NodeParent": 600042,
+        "NodeName": "ส่วนงานนิติการ (สัญญา)",
+        "NodeNameEn": "Legal Section",
+        "DeptCode": "01-01-02-01-00-01-01-01-00-02",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700121,
+        "NodeParent": 600042,
+        "NodeName": "ส่วนงานกำกับดูแล",
+        "NodeNameEn": "Compliance Section",
+        "DeptCode": "01-01-02-01-00-01-01-01-00-01",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700122,
+        "NodeParent": 600042,
+        "NodeName": "ส่วนงานสารบรรณ",
+        "NodeNameEn": "Disbursement Control Section",
+        "DeptCode": "01-01-02-01-00-01-01-01-00-03",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700123,
+        "NodeParent": 600043,
+        "NodeName": "ส่วนงานงานประชุม",
+        "NodeNameEn": "Conference Section",
+        "DeptCode": "01-01-02-01-00-01-01-03-00-01",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700124,
+        "NodeParent": 600044,
+        "NodeName": "ส่วนงานประชาสัมพันธ์ภายในและกิจกรรมเพื่อสังคม",
+        "NodeNameEn": "Coporate Image Section",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700125,
+        "Node Parent": 600044,
+        "NodeName": "ส่วนงานประชาสัมพันธ์ภายนอกและสื่อสารการตลาด",
+        "NodeNameEn": "Social Responsibility Section",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700126,
+        "NodeParent": 600045,
+        "NodeName": "ส่วนงานกู้ภัย/รถยกลากจูง SES",
+        "NodeNameEn": "Rescue/Tow truck Section",
+        "DeptCode": "01-01-02-01-02-01-01-01-00-01",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700127,
+        "NodeParent": 600045,
+        "NodeName": "ส่วนงานสื่อสารและกู้ภัย/รถยกลากจูง C+",
+        "NodeNameEn": "Communicate and Rescue/Tow truck C+ Section",
+        "DeptCode": "01-01-02-01-02-01-01-01-00-02",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700128,
+        "NodeParent": 600046,
+        "NodeName": "ส่วนงานสื่อสารและกู้ภัย/รถยกลากจูง SOE",
+        "NodeNameEn": "Communicate and Rescue/Tow truck SOE Section",
+        "DeptCode": "01-01-02-01-02-01-01-02-00-01",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700129,
+        "NodeParent": 600047,
+        "NodeName": "ส่วนงานสนับสนุนงานจราจร SES/C+",
+        "NodeNameEn": "Traffic Support SES/C+ Section",
+        "DeptCode": "01-01-02-01-02-01-01-03-00-01",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700130,
+        "NodeParent": 600047,
+        "NodeName": "ส่วนงานสนับสนุนงานจราจร SOE",
+        "NodeNameEn": "Traffic Support SOE Section",
+        "DeptCode": "01-01-02-01-02-01-01-03-00-02",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700131,
+        "NodeParent": 600048,
+        "NodeName": "ส่วนงานกลุ่มด่าน SOE",
+        "NodeNameEn": "Toll Area (SOE) Section",
+        "DeptCode": "01-01-02-01-02-01-02-01-00-01",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700132,
+        "NodeParent": 600049,
+        "NodeName": "ส่วนงานกลุ่มด่าน SES (1)",
+        "NodeNameEn": "Toll Area (SES1) Section",
+        "DeptCode": "01-01-02-01-02-01-03-01-00-02",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700133,
+        "NodeParent": 600049,
+        "NodeName": "ส่วนงานกลุ่มด่าน SES (2)",
+        "NodeNameEn": "Toll Area (SES2) Section",
+        "DeptCode": "01-01-02-01-02-01-03-01-00-03",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700134,
+        "NodeParent": 600049,
+        "NodeName": "ส่วนงานกลุ่มด่าน SES (3)",
+        "NodeNameEn": "Toll Area (SES3) Section",
+        "DeptCode": "01-01-02-01-02-01-03-01-00-04",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700135,
+        "NodeParent": 600049,
+        "NodeName": "ส่วนงานกลุ่มด่าน C+",
+        "NodeNameEn": "Toll Area (C+) Section",
+        "DeptCode": "01-01-02-01-02-01-03-01-00-01",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700136,
+        "NodeParent": 600052,
+        "NodeName": " ส่วนงานบำรุงรักษาทาง",
+        "NodeNameEn": "Way Maintenance  Section",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700137,
+        "NodeParent": 600051,
+        "NodeName": "ส่วนงานรักษาความสะอาดทาง",
+        "NodeNameEn": "Cleaning Section",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700138,
+        "NodeParent": 600051,
+        "NodeName": "ส่วนงานบำรุงรักษาอาคาร",
+        "NodeNameEn": "Building Repair Section",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700139,
+        "NodeParent": 600051,
+        "NodeName": "ส่วนงานบำรุงรักษาเขตทาง/สิ่งแวดล้อม",
+        "NodeNameEn": "Right Of Way And Environment Section",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700140,
+        "NodeParent": 600052,
+        "NodeName": "ส่วนงานก่อสร้าง-ปรับปรุง",
+        "NodeNameEn": "Construction and Renovation Section",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700141,
+        "NodeParent": 600052,
+        "NodeName": "ส่วนงานตรวจสอบและซ่อมแซมโครงสร้าง",
+        "NodeNameEn": "Inspection And Repair Section",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700142,
+        "NodeParent": 600053,
+        "NodeName": "ส่วนงานบำรุงรักษายานพาหนะ",
+        "NodeNameEn": "Vehicle Maintenance Section",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700143,
+        "NodeParent": 600053,
+        "NodeName": "ส่วนงานบำรุงรักษาเครื่องกลและวัตถุคงคลัง",
+        "NodeNameEn": "Mechanical Maintenance and Inventory Control Section",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700144,
+        "NodeParent": 600071,
+        "NodeName": "ส่วนงาน EM3 #1 (ส่วนงานซ่อมระบบจัดเก็บค่าผ่านทาง 1)",
+        "NodeNameEn": "Toll Collection System Maintenance1 Section",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700145,
+        "NodeParent": 600054,
+        "NodeName": "ส่วนงาน EM4 (ส่วนงานซ่อมระบบควบคมุการจราจร)",
+        "NodeNameEn": "Traffic Control System Maintenance Section",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700146,
+        "NodeParent": 600071,
+        "NodeName": "ส่วนงาน Project (ส่วนงานโครงการระบบจัดเก็บค่าผ่านทาง)",
+        "NodeNameEn": "Toll Collection System Project Section",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700147,
+        "NodeParent": 600072,
+        "NodeName": "ส่วนงาน HQ (ส่วนงานศูนย์คอมพิวเตอร์และซอฟต์แวร์)",
+        "NodeNameEn": "Toll computer Center and Software Section",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700148,
+        "NodeParent": 600072,
+        "NodeName": "ส่วนงาน PMDC & Sec (ส่วนงานความป ลอดภัยสารสนเทศ)",
+        "NodeNameEn": "Information Security Section",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700149,
+        "NodeParent": 600055,
+        "NodeName": "ส่วนงาน EM1(ส่วนงานซ่อมระบบไฟฟ้าแสงสว่างทางพิเศษ)",
+        "NodeNameEn": "Street Lighting Maintenance Section",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700150,
+        "NodeParent": 600055,
+        "NodeName": "ส่วนงาน EM2 (ส่วนงานซ่อมระบบไฟฟ้าอาคาร)",
+        "NodeNameEn": "Electrical and Facility Maintenance Section",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700151,
+        "NodeParent": 600055,
+        "NodeName": "ส่วนงานโครงการและวางแผน(ส่วนงานโครงการไฟฟ้า)",
+        "NodeNameEn": "Electrical Engineering Project",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700152,
+        "NodeParent": 600056,
+        "NodeName": "ส่วนงานวางแผนและสัญญา",
+        "NodeNameEn": "Contract Administration Section",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700153,
+        "NodeParent": 600056,
+        "NodeName": "ส่วนงานโครงสร้าง",
+        "NodeNameEn": "Civil Engineering Section",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700154,
+        "NodeParent": 600056,
+        "NodeName": "ส่วนงานระบบและอื่นๆ",
+        "NodeNameEn": "System Engineering Section",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700155,
+        "NodeParent": 600057,
+        "NodeName": "ส่วนงานวิเคราะห์โครงการ",
+        "NodeNameEn": "Project Analysis Section",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700156,
+        "NodeParent": 600057,
+        "NodeName": "ส่วนงานวิเคราะห์จราจร",
+        "NodeNameEn": "Traffic Analysis Section",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700157,
+        "NodeParent": 600058,
+        "NodeName": "แผนกตรวจสอบภายใน",
+        "NodeNameEn": "Internal Audit Section",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700158,
+        "NodeParent": 600059,
+        "NodeName": "ส่วนงานวิเคราะห์และออกแบบงาน",
+        "NodeNameEn": "System Analysis & Design Section",
+        "DeptCode": "01-01-02-01-03-03-02-01-00-02",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700159,
+        "NodeParent": 600060,
+        "NodeName": "ส่วนงานบริหารเครือข่าย",
+        "NodeNameEn": "Network Management Section",
+        "DeptCode": "01-01-02-01-03-03-02-02-00-01",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700160,
+        "NodeParent": 600060,
+        "NodeName": "ส่วนงานสนับสนุนเทคนิค",
+        "NodeNameEn": "Technical Support Section",
+        "DeptCode": "01-01-02-01-03-03-02-02-00-02",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700161,
+        " NodeParent": 600062,
+        "NodeName": "ส่วนงานบริหารงานฝึกอบรม (สาขา 1)",
+        "NodeNameEn": "Training Administration Section (Unit 1)",
+        "DeptCode": "01-01-02-01-03-01-01-03-00-01",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700162,
+        "NodeParent": 600062,
+        "NodeName": "ส่วนงานพัฒนาทรัพยากรบุคคล (สาขา 1)",
+        "NodeNameEn": "Human Resources Development Section (Unit 1)",
+        "DeptCode": "01-01-02-01-03-01-01-03-00-02",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700163,
+        "NodeParent": 600061,
+        "NodeName": "ส่วนงานสรรหาและแรงงานสัมพันธ์ (สาขา 1)",
+        "NodeNameEn": "Recruitment & Employee Relations Section (Unit 1)",
+        "DeptCode": "01-01-02-01-03-01-01-02-00-02",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700164,
+        "NodeParent": 600059,
+        "NodeName": "ส่วนงานบริหารโปรแกรมประยุกต์",
+        "NodeNameEn": "Application Management Section",
+        "DeptCode": "01-01-02-01-03-03-02-01-00-01",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700165,
+        "NodeParent": 600070,
+        "NodeName": "ส่วนงานรับชำระ 2",
+        "NodeNameEn": "Receive2 Section",
+        "DeptCode": "01-01-02-01-04-01-01-04-00-02",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700166,
+        "NodeParent": 600036,
+        "NodeName": "แผนกวิเคราะห์ข้อมูลและพัฒนาระบบ",
+        "NodeNameEn": "Data Analysis and Development Section",
+        "DeptCode": "01-01-02-01-04-02-02-04-00-01",
+        "Total": 1
+    },
+    {
+        "NodeCode": 700167,
+        "NodeParent": 600061,
+        "NodeName": "ส่วนงานค่าจ้างและสวัสดิการ (สาขา 1)",
+        "NodeNameEn": "Compensation & Benefits Section (Unit 1)",
+        "DeptCode": "01-01-02-01-03-01-01-02-00-01",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700168,
+        "NodeParent": 600071,
+        "NodeName": "ส่วนงาน EM3 #2 (ส่วนงานซ่อมระบบจัดเก็บค่าผ่านทาง 2)",
+        "NodeNameEn": "Toll Collection System Maintenance2 Section",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700169,
+        "NodeParent": 600054,
+        "NodeName": "ส่วนงาน Project (ส่วนงานโครงการระบบควบคมุการจราจร)",
+        "NodeNameEn": "Traffic Control System Project Section",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700170,
+        "NodeParent": 600054,
+        "NodeName": "ส่วนงาน Repair&Cal (ส่วนงานศูนย์ซซ่อมและสอบเทียบอปุกรณ์)",
+        "NodeNameEn": "Repair and Calibration Center Section",
+        "DeptCode": "",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700171,
+        "NodeParent": 600067,
+        "NodeName": "แผนกตรวจสอบรายได้  (สายสีน้ำเงิน 2)",
+        "NodeNameEn": "Income Audit Section BL2",
+        "DeptCode": "01-01-02-01-04-02-02-01-00-02",
+        "Total": 6
+    },
+    {
+        "NodeCode": 700172,
+        "NodeParent": 600025,
+        "NodeName": "แผนกบริหารระบบสารสนเทศ (ส่วนหน้า)",
+        "NodeNameEn": "System Engineering Section (Front End)",
+        "DeptCode": "01-01-02-01-03-03-01-02-00-03",
+        "Total": 5
+    },
+    {
+        "NodeCode": 700173,
+        "NodeParent": 650002,
+        "NodeName": "ระบบรถไฟฟ้าและรถซ่อมบำรุง PPL",
+        "NodeNameEn": "Rolling Stock PPL",
+        "DeptCode": "01-01-02-01-01-01-01-01-02-03",
+        "Total": 3
+    },
+    {
+        "NodeCode": 700174,
+        "NodeParent": 650002,
+        "NodeName": "ระบบอาณัติสัญญาณและระบบประตูกั้นชานชาลา PPL",
+        "NodeNameEn": "Signalling-Platform Screen Door PPL",
+        "DeptCode": "01-01-02-01-01-01-01-01-02-01",
+        "Total": 32
+    },
+    {
+        "NodeCode": 700175,
+        "NodeParent": 650002,
+        "NodeName": "ระบบสื่อสาร PPL",
+        "NodeNameEn": "Communication PPL",
+        "DeptCode": "01-01-02-01-01-01-01-01-02-02",
+        "Total": 35
+    },
+    {
+        "NodeCode": 700176,
+        "NodeParent": 650004,
+        "NodeName": "ระบบไฟฟ้ากำลังและระบบควบคุม-เก็บข้อมูล PPL",
+        "NodeNameEn": "Power Supply & SCADA PPL",
+        "DeptCode": "01-01-02-01-01-01-01-02-02-01",
+        "Total": 3
+    },
+    {
+        "NodeCode": 700178,
+        "NodeParent": 650004,
+        "NodeName": "ระบบงานโครงสร้างและรางวิ่ง PPL",
+        "NodeNameEn": "Civil & Track Work PPL",
+        "DeptCode": "01-01-02-01-01-01-01-02-02-02",
+        "Total": 26
+    },
+    {
+        "NodeCode": 700179,
+        "NodeParent": 650006,
+        "NodeName": "ระบบน้ำ  BL2",
+        "NodeNameEn": "Water System BL2",
+        "DeptCode": "01-01-02-01-01-01-01-03-02-02",
+        "Total": 31
+    },
+    {
+        "NodeCode": 700180,
+        "NodeParent": 650006,
+        "NodeName": "ระบบควบคุมสภาวะแวดล้อม BL2",
+        "NodeNameEn": "Environmental Control System BL2",
+        "DeptCode": "01-01-02-01-01-01-01-03-02-03",
+        "Total": 3
+    },
+    {
+        "NodeCode": 700182,
+        "NodeParent": 650006,
+        "NodeName": "ระบบไฟฟ้าแรงต่ำ ป้ายสัญลักษณ์ และระบบตรวจจับอัคคีภัย/ระบบป้องกันอัคคีภัยด้วยก๊าซ BL2",
+        "NodeNameEn": "Low Voltage Power Supply & Graphic Signage BL2",
+        "DeptCode": "01-01-02-01-01-01-01-03-02-01",
+        "Total": 3
+    },
+    {
+        "NodeCode": 700183,
+        "NodeParent": 650007,
+        "NodeName": "ระบบน้ำ PPL1",
+        "NodeNameEn": "Water System PPL1",
+        "DeptCode": "01-01-02-01-01-01-01-03-03-02",
+        "Total": 23
+    },
+    {
+        "NodeCode": 700184,
+        "NodeParent": 650007,
+        "NodeName": "ระบบควบคุมสภาวะแวดล้อม PPL1",
+        "NodeNameEn": "Environmen tal Control System PPL",
+        "DeptCode": "01-01-02-01-01-01-01-03-03-03",
+        "Total": 3
+    },
+    {
+        "NodeCode": 700186,
+        "NodeParent": 650007,
+        "NodeName": "ระบบไฟฟ้าแรงต่ำ ป้ายสัญลักษณ์ และระบบตรวจจับอัคคีภัย/ระบบป้องกันอัคคีภัยด้วยก๊าซ PPL1",
+        "NodeNameEn": "Low Voltage Power Supply & Graphic Signage PPL1",
+        "DeptCode": "01-01-02-01-01-01-01-03-03-01",
+        "Total": 4
+    },
+    {
+        "NodeCode": 700187,
+        "NodeParent": 600005,
+        "NodeName": "ศูนย์จัดการงานซ่อมบำรุง BL2",
+        "NodeNameEn": "Maintenance Management Center BL2",
+        "DeptCode": "01-01-02-01-01-01-02-01-00-02",
+        "Total": 20
+    },
+    {
+        "NodeCode": 700188,
+        "NodeParent": 600005,
+        "NodeName": "แผนกคลังวัสดุสินค้า  BL2",
+        "NodeNameEn": "Store Section BL",
+        "DeptCode": "01-01-02-01-01-01-02-01-00-05",
+        "Total": 13
+    },
+    {
+        "NodeCode": 700189,
+        "NodeParent": 600077,
+        "NodeName": "แผนกอาชีวอนามัยและความปลอดภัย PPL",
+        "NodeNameEn": "Health and Safety Section PPL",
+        "DeptCode": "01-01-02-01-00-03-01-03-00-02",
+        "Total": 1
+    },
+    {
+        "NodeCode": 700190,
+        "NodeParent": 650003,
+        "NodeName": "ระบบไฟฟ้ากำลังและระบบควบคุม-เก็บข้อมูล  BL",
+        "NodeNameEn": "Power Supply & SCADA BL",
+        "DeptCode": "01-01-02-01-01-01-01-02-01-01",
+        "Total": 3
+    },
+    {
+        "NodeCode": 700191,
+        "NodeParent": 650003,
+        "NodeName": "ระบบงานโครงสร้างและรางวิ่ง  BL",
+        "NodeNameEn": "Civil & Track Work BL",
+        "DeptCode": "01-01-02-01-01-01-01-02-01-02",
+        "Total": 47
+    },
+    {
+        "NodeCode": 700192,
+        "NodeParent": 650005,
+        "NodeName": "ระบบไฟฟ้าแรงต่ำ ป้ายสัญลักษณ์ และระบบตรวจจับอัคคีภัย/ระบบป้องกันอัคคีภัยด้วยก๊าซ BL1",
+        "NodeNameEn": "Low Voltage Power Supply & Graphic Signage BL1",
+        "DeptCode": "01-01-02-01-01-01-01-03-01-01",
+        "Total": 4
+    },
+    {
+        "NodeCode": 700193,
+        "NodeParent": 600078,
+        "NodeName": "แผนกกฎระเบียบการเดินรถ",
+        "NodeNameEn": "Rule & Regulation Section",
+        "DeptCode": "01-01-02-01-00-03-01-01-00-01",
+        "Total": 0
+    },
+    {
+        "NodeCode": 700194,
+        "NodeParent": 600081,
+        "NodeName": "แผนกพัฒนาโครงการด้านทรัพยากรบุคคลและองค์กร",
+        "NodeNameEn": "HROD Project Development Division",
+        "DeptCode": "01-01-02-01-03-01-00-03-00-01",
+        "Total": 2
+    },
+    {
+        "NodeCode": 700195,
+        "NodeParent": 600025,
+        "NodeName": "แผนกบริหารระบบความปลอดภัยด้านสารสนเทศ",
+        "NodeNameEn": "Information Security Section",
+        "DeptCo de": "01-01-02-01-03-03-01-02-00-01",
+        "Total": 1
+    },
+    {
+        "NodeCode": 700196,
+        "NodeParent": 600024,
+        "NodeName": "แผนกพัฒนาระบบสารสนเทศสนับสนุนงานปฏิบัติการ",
+        "NodeNameEn": "Operations Support System Development Section",
+        "DeptCode": "01-01-02-01-03-03-01-01-00-01",
+        "Total": 4
+    },
+    {
+        "NodeCode": 700197,
+        "NodeParent": 600073,
+        "NodeName": "สถานีท่าพระ",
+        "NodeNameEn": "BL01",
+        "DeptCode": "01-01-02-01-01-02-02-02-00-01",
+        "Total": 34
+    },
+    {
+        "NodeCode": 700198,
+        "NodeParent": 600073,
+        "NodeName": "สถานีวัดมังกร",
+        "NodeNameEn": "BL29",
+        "DeptCode": "01-01-02-01-01-02-02-02-00-29",
+        "Total": 26
+    },
+    {
+        "NodeCode": 700199,
+        "NodeParent": 600073,
+        "NodeName": "สถานีสามยอด",
+        "NodeNameEn": "BL30",
+        "DeptCode": "01-01-02-01-01-02-02-02-00-30",
+        "Total": 24
+    },
+    {
+        "NodeCode": 700200,
+        "NodeParent": 600073,
+        "NodeName": "สถานีสนามไชย",
+        "NodeNameEn": "BL31",
+        "DeptCode": "01-01-02-01-01-02-02-02-00-31",
+        "Total": 23
+    },
+    {
+        "NodeCode": 700201,
+        "NodeParent": 600073,
+        "NodeName": "สถานีอิสรภาพ",
+        "NodeNameEn": "BL32",
+        "DeptCode": "01-01-02-01-01-02-02-02-00-32",
+        "Total": 21
+    },
+    {
+        "NodeCode": 700202,
+        "NodeParent": 600073,
+        "NodeName": "สถานีบางไผ่",
+        "NodeNameEn": "BL33",
+        "DeptCode": "01-01-02-01-01-02-02-02-00-33",
+        "Total": 24
+    },
+    {
+        "NodeCode": 700203,
+        "NodeParent": 600073,
+        "NodeName": "สถานีบางหว้า",
+        "NodeNameEn": "BL34",
+        "DeptCode": "01-01-02-01-01-02-02-02-00-34",
+        "Total": 24
+    },
+    {
+        "NodeCode": 700204,
+        "NodeParent": 600073,
+        "NodeName": "สถานีเพชรเกษม",
+        "NodeNameEn": "BL35",
+        "DeptCode": "01-01-02-01-01-02-02-02-00-35",
+        "Total": 25
+    },
+    {
+        "NodeCode": 700205,
+        "NodeParent": 600073,
+        "NodeName": "สถานีภาษีเจริญ",
+        "NodeNameEn": "BL36",
+        "DeptCode": "01-01-02-01-01-02-02-02-00-36",
+        "Total": 22
+    },
+    {
+        "NodeCode": 700206,
+        "NodeParent": 600073,
+        "NodeName": "สถานีบางแค",
+        "NodeNameEn": "BL37",
+        "DeptCode": "01-01-02-01-01-02-02-02-00-37",
+        "Total": 23
+    },
+    {
+        "NodeCode": 700207,
+        "NodeParent": 600073,
+        "NodeName": "สถานีหลักสอง",
+        "NodeNameEn": "BL38",
+        "DeptCode": "01-01-02-01-01-02-02-02-00-38",
+        "Total": 25
+    },
+    {
+        "NodeCode": 700208,
+        "NodeParent": 600073,
+        "NodeName": "สถานีจรัญฯ13",
+        "NodeNameEn": "BL02",
+        "DeptCode": "01-01-02-01-01-02-02-02-00-02",
+        "Total": 22
+    },
+    {
+        "NodeCode": 700209,
+        "NodeParent": 600073,
+        "N odeName": "สถานีไฟฉาย",
+        "NodeNameEn": "BL03",
+        "DeptCode": "01-01-02-01-01-02-02-02-00-03",
+        "Total": 23
+    },
+    {
+        "NodeCode": 700210,
+        "NodeParent": 600073,
+        "NodeName": "สถานีบางขุนนนท์",
+        "NodeNameEn": "BL04",
+        "DeptCode": "01-01-02-01-01-02-02-02-00-04",
+        "Total": 24
+    },
+    {
+        "NodeCode": 700211,
+        "NodeParent": 600073,
+        "NodeName": "สถานีบางยี่ขัน",
+        "NodeNameEn": "BL05",
+        "DeptCode": "01-01-02-01-01-02-02-02-00-05",
+        "Total": 23
+    },
+    {
+        "NodeCode": 700212,
+        "NodeParent": 600073,
+        "NodeName": "สถานีสิรินธร",
+        "NodeNameEn": "BL06",
+        "DeptCode": "01-01-02-01-01-02-02-02-00-06",
+        "Total": 24
+    },
+    {
+        "NodeCode": 700213,
+        "NodeParent": 600073,
+        "NodeName": "สถานีบางพลัด",
+        "NodeNameEn": "BL07",
+        "DeptCode": "01-01-02-01-01-02-02-02-00-07",
+        "Total": 23
+    },
+    {
+        "NodeCode": 700214,
+        "NodeParent": 600073,
+        "NodeName": "สถานีบางอ้อ",
+        "NodeNameEn": "BL08",
+        "DeptCode": "01-01-02-01-01-02-02-02-00-08",
+        "Total": 21
+    },
+    {
+        "NodeCode": 700215,
+        "NodeParent": 600073,
+        "NodeName": "สถานีบางโพ",
+        "NodeNameEn": "BL09",
+        "DeptCode": "01-01-02-01-01-02-02-02-00-09",
+        "Total": 23
+    },
+    {
+        "NodeCode": 700216,
+        "NodeParent": 600087,
+        "NodeName": "ส่วนงานบริการกลาง U1",
+        "NodeNameEn": "General Service Section U1",
+        "DeptCode": "E321401",
+        "Total": 1
+    },
+    {
+        "NodeCode": 700217,
+        "NodeParent": 650010,
+        "NodeName": "ระบบซ่อมแซมอะไหล่",
+        "NodeNameEn": "Spare Part Workshop Repairing System",
+        "DeptCode": "01-01-02-01-01-01-01-02-03-03",
+        "Total": 6
+    }
+]

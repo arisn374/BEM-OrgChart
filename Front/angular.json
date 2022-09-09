@@ -1,0 +1,122 @@
+{
+    "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+    "cli": {
+      "analytics": "3a739254-8090-4242-af35-b3672b2ffebb"
+    },
+    "version": 1,
+    "newProjectRoot": "projects",
+    "projects": {
+        "BEM-OrgChart": {
+            "projectType": "application",
+            "schematics": {
+                "@schematics/angular:application": {
+                    "strict": true
+                }
+            },
+            "root": "",
+            "sourceRoot": "src",
+            "prefix": "app",
+            "architect": {
+                "build": {
+                    "builder": "@angular-devkit/build-angular:browser",
+                    "options": {
+                        "outputPath": "dist/bem-org-chart",
+                        "index": "src/index.html",
+                        "main": "src/main.ts",
+                        "polyfills": "src/polyfills.ts",
+                        "tsConfig": "tsconfig.app.json",
+                        "assets": [
+                            "src/favicon.ico",
+                            "src/assets",
+                            "src/manifest.webmanifest"
+                        ],
+                        "styles": [
+                            "src/styles.css",
+                            "node_modules/bootstrap/dist/css/bootstrap.min.css",
+                            "src/assets/orgchart/css/jquery.orgchart.min.css",
+                            "src/assets/dataTable/css/jquery.dataTables.min.css"
+                        ],
+                        "scripts": [
+                            "node_modules/jquery/dist/jquery.min.js",
+                            "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+                            "src/assets/orgchart/js/jquery.orgchart.min.js",
+                            "src/assets/orgchart/js/JSONLoop.js",
+                            "src/assets/dataTable/js/jquery.dataTables.min.js",
+                            "src/assets/dataTable/js/dataTables.responsive.min.js",
+                            "node_modules/html2canvas/dist/html2canvas.min.js",
+                            "node_modules/jspdf/dist/jspdf.umd.min.js"
+                        ],
+                        "serviceWorker": true,
+                        "ngswConfigPath": "ngsw-config.json"
+                    },
+                    "configurations": {
+                        "production": {
+                            "budgets": [{
+                                    "type": "initial",
+                                    "maximumWarning": "2mb",
+                                    "maximumError": "5mb"
+                                },
+                                {
+                                    "type": "anyComponentStyle",
+                                    "maximumWarning": "2kb",
+                                    "maximumError": "4kb"
+                                }
+                            ],
+                            "fileReplacements": [{
+                                "replace": "src/environments/environment.ts",
+                                "with": "src/environments/environment.prod.ts"
+                            }],
+                            "outputHashing": "all"
+                        },
+                        "development": {
+                            "buildOptimizer": false,
+                            "optimization": false,
+                            "vendorChunk": true,
+                            "extractLicenses": false,
+                            "sourceMap": true,
+                            "namedChunks": true
+                        }
+                    },
+                    "defaultConfiguration": "production"
+                },
+                "serve": {
+                    "builder": "@angular-devkit/build-angular:dev-server",
+                    "configurations": {
+                        "production": {
+                            "browserTarget": "BEM-OrgChart:build:production"
+                        },
+                        "development": {
+                            "browserTarget": "BEM-OrgChart:build:development"
+                        }
+                    },
+                    "defaultConfiguration": "development"
+                },
+                "extract-i18n": {
+                    "builder": "@angular-devkit/build-angular:extract-i18n",
+                    "options": {
+                        "browserTarget": "BEM-OrgChart:build"
+                    }
+                },
+                "test": {
+                    "builder": "@angular-devkit/build-angular:karma",
+                    "options": {
+                        "main": "src/test.ts",
+                        "polyfills": "src/polyfills.ts",
+                        "tsConfig": "tsconfig.spec.json",
+                        "karmaConfig": "karma.conf.js",
+                        "assets": [
+                            "src/favicon.ico",
+                            "src/assets",
+                            "src/manifest.webmanifest"
+                        ],
+                        "styles": [
+                            "src/styles.css"
+                        ],
+                        "scripts": []
+                    }
+                }
+            }
+        }
+    },
+    "defaultProject": "BEM-OrgChart"
+}

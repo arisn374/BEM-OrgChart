@@ -1,0 +1,45 @@
+<div class="row">
+    <div class="col-sm-6">
+        <div class="input-group">
+            <input type="text" id="selected-node" class="form-control" placeholder="please select node" readonly="true">
+            <button id="btn-report-path" class="btn btn-outline-success" type="button">Draw report path</button>
+            <button id="btn-reset" class="btn btn-outline-secondary" type="button">Reset</button>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <!-- <div class="input-group">
+                <button id="btn-export-png" class="btn btn-primary" type="button">Export PNG</button>
+                <button id="btn-export-pdf" class="btn btn-primary" type="button">Export PDF</button>
+            </div> -->
+        <div class="btn-group" role="group">
+            <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    Export
+                </button>
+            <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                <li><a id="btn-export-png" class="btn dropdown-item">PNG</a></li>
+                <li><a id="btn-export-pdf" class="btn dropdown-item">PDF</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="chart-container">
+</div>
+
+
+
+<div id="empModal" class="modal fade" data-bs-backdrop="static" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+                <h4 id="deptNameTitle" class="modal-title"></h4>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div id="empList"></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
