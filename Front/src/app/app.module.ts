@@ -9,11 +9,13 @@ import { OrgchartComponent } from './orgchart/orgchart.component';
 import { OrgService } from './services/orgservice.service';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { ComponentNameComponent } from './component-name/component-name.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    OrgchartComponent
+    OrgchartComponent,
+    ComponentNameComponent
   ],
   imports: [
     BrowserModule,

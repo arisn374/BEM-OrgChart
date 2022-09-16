@@ -19,13 +19,13 @@ namespace BEM_OrgChart_Api.Models
         public virtual DbSet<ActiveBmclEmployee> ActiveBmclEmployees { get; set; } = null!;
         public virtual DbSet<Dm0101orgVersionControl> Dm0101orgVersionControls { get; set; } = null!;
         public virtual DbSet<Dm0103orgDepartment> Dm0103orgDepartments { get; set; } = null!;
+        public virtual DbSet<V0113BMCLEmployee_EmployeeAPI> V0113BMCLEmployee_EmployeeAPIs {get;set;}= null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
             {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("Server=172.15.1.94\\mssql2014;Database=BEMTree;User Id=sa;Password=luckytime;");
+               optionsBuilder.UseSqlServer("Server=172.15.1.94\\mssql2014;Database=BEMTree;User Id=sa;Password=luckytime;");
             }
         }
 
@@ -214,6 +214,71 @@ namespace BEM_OrgChart_Api.Models
                     .HasMaxLength(100)
                     .IsUnicode(false);
             });
+
+            modelBuilder.Entity<V0113BMCLEmployee_EmployeeAPI>(b =>
+            {
+                    b.HasKey(e => new { e.EM_CODE, e.NodeCode });
+
+                    b.ToTable("V0113BMCLEmployee_EmployeeAPI");
+                    
+                    b.Property(e => e.EM_CODE)
+                        .HasMaxLength(40)
+                        .HasColumnName("EM_CODE")
+                        .IsUnicode(false);
+                    b.Property(e => e.thName )
+                        .HasMaxLength(40)
+                        .HasColumnName("thName")
+                        .IsUnicode(false);
+                    b.Property(e => e.engName)
+                        .HasMaxLength(40)
+                        .HasColumnName("engName")
+                        .IsUnicode(false);
+                    b.Property(e => e.EM_NICKNAME)
+                        .HasMaxLength(40)
+                        .HasColumnName("EM_NICKNAME")
+                        .IsUnicode(false);
+                    b.Property(e => e.DeptCode)
+                        .HasMaxLength(40)
+                        .HasColumnName("DeptCode")
+                        .IsUnicode(false);
+                    b.Property(e => e.NodeCode )
+                        .HasMaxLength(40)
+                        .HasColumnName("NodeCode")
+                        .IsUnicode(false);
+                    b.Property(e => e.PositionOrder)
+                        .HasMaxLength(40)
+                        .HasColumnName("PositionOrder")
+                        .IsUnicode(false);
+                    b.Property(e => e.NodeName )
+                        .HasMaxLength(40)
+                        .HasColumnName("NodeName")
+                        .IsUnicode(false);
+                    b.Property(e => e.NodeNameEn )
+                        .HasMaxLength(40)
+                        .HasColumnName("NodeNameEn")
+                        .IsUnicode(false);
+                    b.Property(e => e.NodeNameAbb)
+                        .HasMaxLength(40)
+                        .HasColumnName("NodeNameAbb")
+                        .IsUnicode(false);
+                    b.Property(e => e.PositionName )
+                        .HasMaxLength(40)
+                        .HasColumnName("PositionName")
+                        .IsUnicode(false);
+                    b.Property(e => e.PositionNameEn )
+                        .HasMaxLength(40)
+                        .HasColumnName("PositionNameEn")
+                        .IsUnicode(false);
+                    b.Property(e => e.TelPrimary )
+                        .HasMaxLength(40)
+                        .HasColumnName("TelPrimary")
+                        .IsUnicode(false);
+                    b.Property(e => e.TelSecondary )
+                        .HasMaxLength(40)
+                        .HasColumnName("TelSecondary")
+                        .IsUnicode(false);
+                 
+                });
 
             OnModelCreatingPartial(modelBuilder);
         }

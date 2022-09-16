@@ -17,9 +17,10 @@ builder.Services.AddCors(options =>
             , "https://localhost:7165"
             , "https://inhouse.bemplc.co.th"
             , "https://app.bemplc.co.th"
-            , "https://orgchart.bemplc.co.th")
-                                .AllowAnyHeader()
-                                .AllowAnyMethod();
+            , "https://orgchart.bemplc.co.th"
+            )
+            .AllowAnyHeader()
+            .AllowAnyMethod();
         });
 });
 builder.Services.AddDbContext<BEMTreeContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("AppDb")));
@@ -56,9 +57,7 @@ app.MapGet("/department", async (BEMTreeContext db) =>
     emp => emp.DeptCode,
     (dep, emp) => new { Dept = dep, Emp = emp })
     .SelectMany(x => x.Emp.DefaultIfEmpty(),
-    (x, y) =>
-    new
-    {
+    (x, y) => new {
         x.Dept,
         Count = y.Count != null ? y.Count : 0
     })
@@ -95,4 +94,30 @@ app.MapGet("/employee", async (BEMTreeContext db) =>
     .ToListAsync();
     return Results.Ok(data);
 });
+
+app.MapGet("/employeeOrg", async (BEMTreeContext db) =>
+{
+    var orgActive = await db.Dm0101orgVersionControls.Where(x => !x.Locked).Select(s => s.OrgCode).SingleOrDefaultAsync();
+    var data = await db.V0113BMCLEmployee_EmployeeAPIs
+    .Select(s => new
+    {
+        EM_CODE         =   s.EM_CODE         
+        ,thName          =   s.thName          
+        ,engName         =   s.engName         
+        ,EM_NICKNAME     =   s.EM_NICKNAME     
+        ,DeptCode        =   s.DeptCode        
+        ,NodeCode        =   s.NodeCode        
+        ,PositionOrder   =   s.PositionOrder   
+        ,NodeName        =   s.NodeName        
+        ,NodeNameEn      =   s.NodeNameEn      
+        ,NodeNameAbb     =   s.NodeNameAbb     
+        ,PositionName    =   s.PositionName    
+        ,PositionNameEn  =   s.PositionNameEn  
+        ,TelPrimary      =   s.TelPrimary      
+        ,TelSecondary    =   s.TelSecondary    
+ })
+    .ToListAsync();
+    return Results.Ok(data);
+});
+
 app.Run();
