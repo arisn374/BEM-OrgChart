@@ -43,8 +43,8 @@ app.UseCors(MyAllowSpecificOrigins);
 app.MapGet("/department", async (BEMTreeContext db) =>
 {
     var orgActive = await db.Dm0101orgVersionControls.Where(x => !x.Locked).Select(s => s.OrgCode).SingleOrDefaultAsync();
-    var countDeptCode = db.ActiveBmclEmployees
-    .GroupBy(g => g.EmDept)
+    var countDeptCode = db.V0113BMCLEmployee_EmployeeAPIs
+    .GroupBy(g => g.DeptCode)
     .Select(s => new
     {
         DeptCode = s.Key,
@@ -97,7 +97,6 @@ app.MapGet("/employee", async (BEMTreeContext db) =>
 
 app.MapGet("/employeeOrg", async (BEMTreeContext db) =>
 {
-    var orgActive = await db.Dm0101orgVersionControls.Where(x => !x.Locked).Select(s => s.OrgCode).SingleOrDefaultAsync();
     var data = await db.V0113BMCLEmployee_EmployeeAPIs
     .Select(s => new
     {
