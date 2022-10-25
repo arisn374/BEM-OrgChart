@@ -1,0 +1,23 @@
+.container_card{
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  }
+  
+.blog_post {
+    background: #fff;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2rem rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.orgchart .hierarchy.hybrid  {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  min-width:  300px;
+  width: max-content;
+  /* max-width: max-content; */
+}
+
+.pd-2{
+  padding: 2rem 2rem 2rem 2rem;
+}

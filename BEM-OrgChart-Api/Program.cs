@@ -13,11 +13,16 @@ builder.Services.AddCors(options =>
     options.AddPolicy(name: MyAllowSpecificOrigins,
         builder =>
         {
-            builder.WithOrigins("http://localhost:4200"
-            , "https://localhost:7165"
-            , "https://inhouse.bemplc.co.th"
-            , "https://app.bemplc.co.th"
-            , "https://orgchart.bemplc.co.th"
+            builder.WithOrigins(
+            //     "http://localhost:4200"
+            // , "https://localhost:7165"
+              "http://192.168.2.211"
+            , "http://192.168.2.211:8081"
+            , "http://192.168.2.129"
+            , "http://192.168.2.129:4200"
+            // , "https://inhouse.bemplc.co.th"
+            // , "https://app.bemplc.co.th"
+            // , "https://orgchart.bemplc.co.th"
             )
             .AllowAnyHeader()
             .AllowAnyMethod();

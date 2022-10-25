@@ -33,13 +33,14 @@
                         "styles": [
                             "src/styles.css",
                             "node_modules/bootstrap/dist/css/bootstrap.min.css",
-                            "src/assets/orgchart/css/jquery.orgchart.min.css",
+                            "src/assets/cssCard.css",
+                            "src/assets/orgchart/css/jquery.orgchart.css",
                             "src/assets/dataTable/css/jquery.dataTables.min.css"
                         ],
                         "scripts": [
                             "node_modules/jquery/dist/jquery.min.js",
                             "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
-                            "src/assets/orgchart/js/jquery.orgchart.min.js",
+                            "src/assets/orgchart/js/jquery.orgchart.js",
                             "src/assets/orgchart/js/JSONLoop.js",
                             "src/assets/dataTable/js/jquery.dataTables.min.js",
                             "src/assets/dataTable/js/dataTables.responsive.min.js",
@@ -81,6 +82,10 @@
                 },
                 "serve": {
                     "builder": "@angular-devkit/build-angular:dev-server",
+                    "options": {
+                        "browserTarget": "BEM-OrgChart:build:production",
+                        "proxyConfig": "src/proxy.conf.json"
+                        },
                     "configurations": {
                         "production": {
                             "browserTarget": "BEM-OrgChart:build:production"
