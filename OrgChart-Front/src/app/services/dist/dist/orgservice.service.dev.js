@@ -41,15 +41,15 @@ function () {
 
 
   OrgService.prototype.getOrgDepartment = function () {
-    return this.http.get("https://192.168.2.211/orgchart_api/department");
+    return this.http.get("https://inhouse.bemplc.co.th/OrgDevapi/department");
   };
 
   OrgService.prototype.getEmployee = function () {
-    return this.http.get("https://192.168.2.211/orgchart_api/employee");
+    return this.http.get("https://inhouse.bemplc.co.th/OrgDevapi/employee");
   };
 
   OrgService.prototype.getEmployeeOrg = function () {
-    return this.http.get("https://192.168.2.211/orgchart_api/employeeOrg");
+    return this.http.get("https://inhouse.bemplc.co.th/OrgDevapi/employeeOrg");
   };
 
   OrgService = __decorate([core_1.Injectable({

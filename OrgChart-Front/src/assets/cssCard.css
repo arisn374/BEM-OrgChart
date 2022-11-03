@@ -21,3 +21,26 @@
 .pd-2{
   padding: 2rem 2rem 2rem 2rem;
 }
+
+.info{
+  width: 15px ;height:20px;cursor:zoom-in;font-size:25px;z-index:30000;
+  font-weight: bold;
+}
+ 
+.badge:hover {
+  /* box-shadow: 0 0 5px rgba(81, 203, 238, 1); */
+  /* transform: scale(3.0); */
+  /* width: 40px ;height:40px;
+  border: 30px rgba(81, 203, 238, 1);
+  border-radius: 25px 30px; */
+  background-color:  rgb(240, 240, 240)   !important;
+  color: rgba(var(--bs-primary-rgb),var(--bs-bg-opacity))!important;
+  border-color:  rgb(37, 136, 248) !important;
+  transform: scale(3.0); 
+}
+
+.navbar{
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+
+}

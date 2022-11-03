@@ -9,23 +9,23 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddCors(options =>
-{
+{   
+
     options.AddPolicy(name: MyAllowSpecificOrigins,
         builder =>
         {
             builder.WithOrigins(
-            //     "http://localhost:4200"
-            // , "https://localhost:7165"
-              "http://192.168.2.211"
-            , "http://192.168.2.211:8081"
-            , "http://192.168.2.129"
-            , "http://192.168.2.129:4200"
-            // , "https://inhouse.bemplc.co.th"
-            // , "https://app.bemplc.co.th"
+            //  "http://192.168.2.129:4200" // MyPC-AC
+            //  ,"https://192.168.2.211"
+               "http://172.15.1.93"
+              ,"https://172.15.1.93"
+             , "https://inhouse.bemplc.co.th"
             // , "https://orgchart.bemplc.co.th"
             )
             .AllowAnyHeader()
-            .AllowAnyMethod();
+            .AllowAnyMethod()
+            .SetIsOriginAllowed(origin => true) // allow any origin
+            .AllowCredentials(); // allow credentials
         });
 });
 builder.Services.AddDbContext<BEMTreeContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("AppDb")));
@@ -41,9 +41,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+// app.UseHttpsRedirection();
 
-app.UseCors(MyAllowSpecificOrigins);
+ app.UseCors(MyAllowSpecificOrigins);
 
 app.MapGet("/department", async (BEMTreeContext db) =>
 {

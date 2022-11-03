@@ -1,17 +1,7 @@
-<div class="row pd-2">
-    <div class="col-sm-6">
-        <div class="input-group">
-            <input type="text" id="selected-node" class="form-control" placeholder="please select node" readonly="true">
-            <button id="btn-report-path" class="btn btn-outline-success" type="button">Draw report path</button>
-            <button id="btn-reset" class="btn btn-outline-secondary" type="button">Reset</button>
-        </div>
-    </div>
-    <div class="col-sm-6">
-        <!-- <div class="input-group">
-                <button id="btn-export-png" class="btn btn-primary" type="button">Export PNG</button>
-                <button id="btn-export-pdf" class="btn btn-primary" type="button">Export PDF</button>
-            </div> -->
+<div class="row pt-2" style="padding-left:2rem;" >
+    <div class="col-sm-10">
         <div class="btn-group" role="group">
+            <button id="btn-reset" class="btn btn-outline-secondary" type="button">Reset</button>
             <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                     Export
                 </button>
@@ -21,6 +11,17 @@
             </ul>
         </div>
     </div>
+    <div class="col-sm-2">
+        <div class="card bg-light" style="max-width: max-content;padding-right: 25px;">
+               <label style="padding-left: 20px;font-size:10px;font-weight:bold;"> สัญลักษณ์และความหมาย</label>
+        <ol  style="font-size:10px;" >
+            <li><strong class=" badge rounded-pill bg-primary">    i   </strong>  แสดงรายการข้อมูลพนักงาน </li>
+            <li><strong>  <[ ]>  </strong>  แสดงรายการหน่วยงานในระดับเดียวกัน </li>
+            <li><strong>  >[ ]<  </strong>  ปิดรายการหน่วยงานในระดับเดียวกัน </li>
+            <li><strong>  ^ / v   </strong> แสดงหรือ ไม่แสดงรายการภายใต้หน่วยงานเดียวกัน </li>
+        </ol>
+  
+    </div></div>
 </div>
 <div id="chart-container">
 </div>

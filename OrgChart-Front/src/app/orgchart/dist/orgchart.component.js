@@ -18,11 +18,11 @@ var OrgchartComponent = /** @class */ (function () {
             var html = '<div class="card border-primary  ">';
             html += '<div class="card-header"><b>' + data.nodeName + '</b>';
             if (data.count != 0) {
-                html += '<h5><span deptcode="' + data.deptCode + '" class="empcount position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary" style="cursor:zoom-in;border-radius: 50px 50px;min-width:max-content;">';
+                html += '<h5><span deptcode="' + data.deptCode + '" class=" empcount position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary" style="cursor:zoom-in;border-radius: 50px 50px;">';
                 html += data.count + '</span></h5>';
             }
             html += '</div></div>';
-            return "\n      <div class=\"card border-primary blog_post\">\n      <div class=\"card-header container_card\"><b>" + data.nodeName + "</b><h4><span deptcode=\"" + data.deptCode + "\" \n      class=\"empcount position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary\" style=\"cursor:zoom-in;border-radius: 50px 50px;min-width:max-content;\">\n      <strong>i</strong>\n      </span></h4></div>\n      </div>\n      ";
+            return "\n      <div class=\"card border-primary blog_post\">\n      <div class=\"card-header container_card\"><b>" + data.nodeName + "</b><h4>\n      <span deptcode=\"" + data.deptCode + "\" class=\"empcount position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary\">\n      <label class=\"info\">i</label>\n      </span></h4></div>\n      </div>\n      ";
             return html;
         };
         // ${data.Total}
@@ -73,8 +73,7 @@ var OrgchartComponent = /** @class */ (function () {
                             odering: true,
                             lengthMenu: [[2, 5, 10, -1], [2, 5, 10, "All"]],
                             ajax: {
-                                url: 'https://192.168.2.211/orgchart_api/employeeOrg',
-                                // url:'http://192.168.2.129/orgchartapi/employeeOrg',
+                                url: 'https://inhouse.bemplc.co.th/OrgDevapi/employeeOrg',
                                 dataType: 'json',
                                 type: 'GET',
                                 dataSrc: function (json) {
@@ -96,7 +95,7 @@ var OrgchartComponent = /** @class */ (function () {
                                     title: "",
                                     render: function (data, type, row, meta) {
                                         // ใส่ url ให้มันผิดเพื่อปิดไม่ให้ show รูป
-                                        return "\n                              <div class=\"card border-light\">\n                              <div class=\"row g-0\">\n                                <div class=\"col-sm-2\">\n                                  <img src=\"https://apphrbem.com/Profile/imges/BMC_disable" + row.eM_CODE.toString().substring(row.eM_CODE.toString().length - 4) + ".jpg\" class=\"backup_picture img-fluid rounded-start\" onerror=this.src=\"/assets/images/icons8-user-100.png\">\n                                </div>\n                                <div class=\"col-sm-10\">\n                                  <div class=\"card-body\">\n                                    <h5 class=\"card-title\">" + row.thName + ((!!row.eM_NICKNAME) ? ' (' + row.eM_NICKNAME + ')' : '') + "<br/>" + row.engName + "</h5> \n                                    <p class=\"card-text\"><strong class=\"text-muted\"> \u0E40\u0E1A\u0E2D\u0E23\u0E4C\u0E15\u0E34\u0E14\u0E15\u0E48\u0E2D : " + ((replacenull(row.telPrimary) != "") ? +row.telPrimary : '') + "  " + ((replacenull(row.telSecondary) != "") ? (',' + row.telSecondary) : '') + "</strong>\n                                    <hr>\n                                    <p class=\"card-text\"><strong class=\"text-muted\">" + ((replacenull(row.positionName) != "") ? ' (' + row.positionName + ')' : '') + "</strong> \n                                    \n                                    </p>\n                                  </div>\n                                </div>\n                              </div>\n                            </div>\n                            ";
+                                        return "\n                              <div class=\"card border-light\">\n                              <div class=\"row g-0\">\n                                <div class=\"col-sm-2\">\n                                  <img src=\"/assets/images/icons8-user-100.png\" class=\"backup_picture img-fluid rounded-start\"  >\n                                  </div>\n                                <div class=\"col-sm-10\">\n                                  <div class=\"card-body\">\n                                    <h5 class=\"card-title\">" + row.thName + ((!!row.eM_NICKNAME) ? ' (' + row.eM_NICKNAME + ')' : '') + "<br/>" + row.engName + "</h5> \n                                    <p class=\"card-text\"><strong class=\"text-muted\"> \u0E40\u0E1A\u0E2D\u0E23\u0E4C\u0E15\u0E34\u0E14\u0E15\u0E48\u0E2D : " + ((replacenull(row.telPrimary) != "") ? +row.telPrimary : '') + "  " + ((replacenull(row.telSecondary) != "") ? (',' + row.telSecondary) : '') + "</strong>\n                                    <hr>\n                                    <p class=\"card-text\"><strong class=\"text-muted\">" + ((replacenull(row.positionName) != "") ? row.positionName : '') + " </strong> \n                                    <strong class=\"text-muted\">" + ((replacenull(row.PositionNameEn) != "" || replacenull(row.PositionNameEn) != "undefined") ? ' (' + row.PositionNameEn + ')' : '') + " </strong> \n                                    \n                                    </p>\n                                  </div>\n                                </div>\n                              </div>\n                            </div>\n                            ";
                                     }
                                 }
                             ]
@@ -153,5 +152,6 @@ var OrgchartComponent = /** @class */ (function () {
     return OrgchartComponent;
 }());
 exports.OrgchartComponent = OrgchartComponent;
+// imgSource : {row.eM_CODE.toString().substring(row.eM_CODE.toString().length - 4)}.jpg" class="backup_picture img-fluid rounded-start" onerror=this.src="/assets/images/icons8-user-100.png">
 
 //# sourceMappingURL=orgchart.component.js.map

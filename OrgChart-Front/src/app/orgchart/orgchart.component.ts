@@ -19,15 +19,15 @@ export class OrgchartComponent implements OnInit {
       let html = '<div class="card border-primary  ">';
       html += '<div class="card-header"><b>' + data.nodeName + '</b>';
       if (data.count != 0) {
-        html += '<h5><span deptcode="' + data.deptCode + '" class="empcount position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary" style="cursor:zoom-in;border-radius: 50px 50px;min-width:max-content;">';
+        html += '<h5><span deptcode="' + data.deptCode + '" class=" empcount position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary" style="cursor:zoom-in;border-radius: 50px 50px;">';
         html += data.count + '</span></h5>';
       }
       html += '</div></div>';
       return `
       <div class="card border-primary blog_post">
-      <div class="card-header container_card"><b>${data.nodeName}</b><h4><span deptcode="${data.deptCode}" 
-      class="empcount position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary" style="cursor:zoom-in;border-radius: 50px 50px;min-width:max-content;">
-      <strong>i</strong>
+      <div class="card-header container_card"><b>${data.nodeName}</b><h4>
+      <span deptcode="${data.deptCode}" class="empcount position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary">
+      <label class="info">i</label>
       </span></h4></div>
       </div>
       `;
@@ -88,9 +88,8 @@ export class OrgchartComponent implements OnInit {
               odering : true,
               lengthMenu: [[2, 5, 10, -1], [2, 5, 10, "All"]],
               ajax: {
-                 url:'https://192.168.2.211/orgchart_api/employeeOrg',
-                // url:'http://192.168.2.129/orgchartapi/employeeOrg',
-                    dataType: 'json',
+              url:'https://inhouse.bemplc.co.th/OrgDevapi/employeeOrg',           
+              dataType: 'json',
                 type: 'GET',
                 dataSrc: function (json: any) {
                   json = JSON.parse(JSON.stringify(json).replace(/\s(?=\w+":)/g, ""));
@@ -116,14 +115,15 @@ export class OrgchartComponent implements OnInit {
                               <div class="card border-light">
                               <div class="row g-0">
                                 <div class="col-sm-2">
-                                  <img src="https://apphrbem.com/Profile/imges/BMC_disable${row.eM_CODE.toString().substring(row.eM_CODE.toString().length - 4)}.jpg" class="backup_picture img-fluid rounded-start" onerror=this.src="/assets/images/icons8-user-100.png">
-                                </div>
+                                  <img src="/assets/images/icons8-user-100.png" class="backup_picture img-fluid rounded-start"  >
+                                  </div>
                                 <div class="col-sm-10">
                                   <div class="card-body">
                                     <h5 class="card-title">${row.thName}${((!!row.eM_NICKNAME) ? ' (' + row.eM_NICKNAME + ')' : '')}<br/>${row.engName}</h5> 
                                     <p class="card-text"><strong class="text-muted"> เบอร์ติดต่อ : ${(replacenull(row.telPrimary) != "") ? + row.telPrimary  : ''}  ${(replacenull(row.telSecondary) != "") ? ( ',' + row.telSecondary ) : ''}</strong>
                                     <hr>
-                                    <p class="card-text"><strong class="text-muted">${(replacenull(row.positionName) != "") ? ' (' + row.positionName + ')' : ''}</strong> 
+                                    <p class="card-text"><strong class="text-muted">${(replacenull(row.positionName) != "") ? row.positionName : ''} </strong> 
+                                    <strong class="text-muted">${(replacenull(row.PositionNameEn) != "" ||  replacenull(row.PositionNameEn) != "undefined" ) ? ' (' + row.PositionNameEn + ')' : ''} </strong> 
                                     
                                     </p>
                                   </div>
@@ -194,3 +194,6 @@ interface OrgDepartment {
   nodeName: string;
   nodeNameEn: string;
 }
+
+
+// imgSource : {row.eM_CODE.toString().substring(row.eM_CODE.toString().length - 4)}.jpg" class="backup_picture img-fluid rounded-start" onerror=this.src="/assets/images/icons8-user-100.png">
