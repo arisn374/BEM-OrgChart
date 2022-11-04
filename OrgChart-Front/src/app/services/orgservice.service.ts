@@ -26,13 +26,14 @@ export class OrgService {
   // order by NodeCode
   //    --for json auto,INCLUDE_NULL_VALUES
   getOrgDepartment() {
-     return this.http.get("https://inhouse.bemplc.co.th/OrgDevapi/department");
+     return this.http.get("https://orgchart-api.bemplc.co.th/department");
+     
   }
   getEmployee() {
-    return this.http.get("https://inhouse.bemplc.co.th/OrgDevapi/employee");
+    return this.http.get("https://orgchart-api.bemplc.co.th/employee");
   }
   getEmployeeOrg() {
-   return this.http.get("https://inhouse.bemplc.co.th/OrgDevapi/employeeOrg");
+   return this.http.get("https://orgchart-api.bemplc.co.th/employeeorg");
   }
 
 }

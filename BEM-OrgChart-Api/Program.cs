@@ -16,11 +16,11 @@ builder.Services.AddCors(options =>
         {
             builder.WithOrigins(
             //  "http://192.168.2.129:4200" // MyPC-AC
-            //  ,"https://192.168.2.211"
-               "http://172.15.1.93"
-              ,"https://172.15.1.93"
+               "https://192.168.2.211"
+             , "http://172.15.1.93"
+             , "https://172.15.1.93"
              , "https://inhouse.bemplc.co.th"
-            // , "https://orgchart.bemplc.co.th"
+             , "https://orgchart.bemplc.co.th"
             )
             .AllowAnyHeader()
             .AllowAnyMethod()

@@ -88,7 +88,8 @@ export class OrgchartComponent implements OnInit {
               odering : true,
               lengthMenu: [[2, 5, 10, -1], [2, 5, 10, "All"]],
               ajax: {
-              url:'https://inhouse.bemplc.co.th/OrgDevapi/employeeOrg',           
+              // url:'https://inhouse.bemplc.co.th/OrgDevapi/employeeOrg',    
+              url : 'https://orgchart-api.bemplc.co.th/employeeOrg' ,    
               dataType: 'json',
                 type: 'GET',
                 dataSrc: function (json: any) {
@@ -115,7 +116,7 @@ export class OrgchartComponent implements OnInit {
                               <div class="card border-light">
                               <div class="row g-0">
                                 <div class="col-sm-2">
-                                  <img src="~/assets/images/icons8-user-100.png" class="backup_picture img-fluid rounded-start"  >
+                                  <img src="assets/images/icons8-user-100.png" class="backup_picture img-fluid rounded-start"  >
                                   </div>
                                 <div class="col-sm-10">
                                   <div class="card-body">

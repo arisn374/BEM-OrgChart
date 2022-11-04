@@ -250,11 +250,11 @@ namespace BEM_OrgChart_Api.Models
                         .HasColumnName("PositionOrder")
                         .IsUnicode(false);
                     b.Property(e => e.NodeName )
-                        .HasMaxLength(40)
+                        .HasMaxLength(60)
                         .HasColumnName("NodeName")
                         .IsUnicode(false);
                     b.Property(e => e.NodeNameEn )
-                        .HasMaxLength(40)
+                        .HasMaxLength(60)
                         .HasColumnName("NodeNameEn")
                         .IsUnicode(false);
                     b.Property(e => e.NodeNameAbb)

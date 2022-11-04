@@ -29,13 +29,13 @@ var OrgService = /** @class */ (function () {
     // order by NodeCode
     //    --for json auto,INCLUDE_NULL_VALUES
     OrgService.prototype.getOrgDepartment = function () {
-        return this.http.get("https://inhouse.bemplc.co.th/OrgDevapi/department");
+        return this.http.get("https://orgchart-api.bemplc.co.th/department");
     };
     OrgService.prototype.getEmployee = function () {
-        return this.http.get("https://inhouse.bemplc.co.th/OrgDevapi/employee");
+        return this.http.get("https://orgchart-api.bemplc.co.th/employee");
     };
     OrgService.prototype.getEmployeeOrg = function () {
-        return this.http.get("https://inhouse.bemplc.co.th/OrgDevapi/employeeOrg");
+        return this.http.get("https://orgchart-api.bemplc.co.th/employeeorg");
     };
     OrgService = __decorate([
         core_1.Injectable({
