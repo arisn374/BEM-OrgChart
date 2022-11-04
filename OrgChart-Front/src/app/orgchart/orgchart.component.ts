@@ -115,16 +115,14 @@ export class OrgchartComponent implements OnInit {
                               <div class="card border-light">
                               <div class="row g-0">
                                 <div class="col-sm-2">
-                                  <img src="/assets/images/icons8-user-100.png" class="backup_picture img-fluid rounded-start"  >
+                                  <img src="~/assets/images/icons8-user-100.png" class="backup_picture img-fluid rounded-start"  >
                                   </div>
                                 <div class="col-sm-10">
                                   <div class="card-body">
                                     <h5 class="card-title">${row.thName}${((!!row.eM_NICKNAME) ? ' (' + row.eM_NICKNAME + ')' : '')}<br/>${row.engName}</h5> 
-                                    <p class="card-text"><strong class="text-muted"> เบอร์ติดต่อ : ${(replacenull(row.telPrimary) != "") ? + row.telPrimary  : ''}  ${(replacenull(row.telSecondary) != "") ? ( ',' + row.telSecondary ) : ''}</strong>
+                                    <p class="card-text"><strong class="text-muted"> เบอร์ติดต่อ : ${row.telPrimary}  ${(replacenull(row.telSecondary) != "") ? ( ',' + row.telSecondary ) : ''}</strong>
                                     <hr>
-                                    <p class="card-text"><strong class="text-muted">${(replacenull(row.positionName) != "") ? row.positionName : ''} </strong> 
-                                    <strong class="text-muted">${(replacenull(row.PositionNameEn) != "" ||  replacenull(row.PositionNameEn) != "undefined" ) ? ' (' + row.PositionNameEn + ')' : ''} </strong> 
-                                    
+                                    <p class="card-text"><strong class="text-muted">${(replacenull(row.positionName) != "") ? row.positionName : ''} </strong>   
                                     </p>
                                   </div>
                                 </div>
