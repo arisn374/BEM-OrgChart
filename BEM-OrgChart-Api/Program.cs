@@ -14,20 +14,24 @@ builder.Services.AddCors(options =>
     options.AddPolicy(name: MyAllowSpecificOrigins,
         builder =>
         {
-            builder.WithOrigins(
-            //  "http://192.168.2.129:4200" // MyPC-AC
-               "https://192.168.2.211"
-             , "http://172.15.1.93"
-             , "https://172.15.1.93"
-             , "https://inhouse.bemplc.co.th"
-             , "https://orgchart.bemplc.co.th"
-            )
+            builder
             .AllowAnyHeader()
             .AllowAnyMethod()
             .SetIsOriginAllowed(origin => true) // allow any origin
             .AllowCredentials(); // allow credentials
         });
 });
+
+
+// // กำหนดสิทธิ์ OriginCors
+// builder.WithOrigins(
+// //  "http://192.168.2.129:4200" // MyPC-AC
+//     "https://192.168.2.211"
+//     , "https://172.15.1.93"
+//     , "https://inhouse.bemplc.co.th"
+//     , "https://orgchart.bemplc.co.th"
+// )
+
 builder.Services.AddDbContext<BEMTreeContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("AppDb")));
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
